@@ -1,0 +1,9 @@
+
+Scenario: Perform FD using USDT crypto in dashboard page
+        Given User in dashboard page
+        When Select the currency and enter amount in fixed deposit section
+                | currancy | amount |
+                | USDT     | 2.345 |
+        Then Verify payout amount and interest rate fields changed
+        And  Click on create fixed deposit button
+        Then Verify the success message is displayed
