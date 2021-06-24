@@ -7,3 +7,19 @@ Scenario: Perform FD using USDT crypto in dashboard page
         Then Verify payout amount and interest rate fields changed
         And  Click on create fixed deposit button
         Then Verify the success message is displayed
+
+,
+    "delete:reportFolder": "rm -rf mochawesome-report/",
+    "test:cli": "npm run delete:reportFolder && cypress run",
+    "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
+    "create:html:report": "npm run merge:reports && marge --reportDir TestReport cypress-combined-report.json"
+
+
+"testFiles": "**/*.{feature,features}",
+"merge":"mochawesome-merge cypress/reports/*.json > cypress/reports/output.json"
+"generate_mochawesome_report": "marge cypress/reports/outpu.json --reportDir ./ --inline"
+
+,
+    "merge": "mochawesome-merge cypress/reports/*.json > cypress/reports/output.json",
+    "generate_mochawesome_report": "marge cypress/reports/outpu.json --reportDir ./ --inline",
+    "final_report": "npm run merge && npm run generate_mochawesome_report"
