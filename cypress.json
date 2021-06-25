@@ -1,4 +1,9 @@
 {
+  "baseUrl": "https://uat.bankofhodlers.com/auth/signin",
+  "env": {
+    "TAGS": "not (@ignore or @skip or @wip) and (@focus or @only)"
+  },
+  "ignoreTestFiles": "*.js",
   "testFiles": "**/*.{feature,features}",
   "chromeWebSecurity": false,
   "defaultCommandTimeout": 10000,

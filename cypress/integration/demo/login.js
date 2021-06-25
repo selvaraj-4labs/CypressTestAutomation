@@ -6,10 +6,14 @@ Given('User navigate to the vauld website', () => {
 })
 
 When('Enter the credentials and click on Sign in button', (data) => {
+    
     data.hashes().forEach((row) => {
         cy.get('[type="email"]').type(row.username)
         cy.get('#password').type(row.password)
     })
+    
+   //cy.sign_in1(row.username,row.password)
+   //cy.sign_in2() -- it is not working
     cy.get('.btn').click()
 })
 
