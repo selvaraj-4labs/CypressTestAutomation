@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-06-25T12:04:57.666Z",
-    "end": "2021-06-25T12:05:47.739Z",
-    "duration": 44658,
+    "start": "2021-06-25T13:12:12.197Z",
+    "end": "2021-06-25T13:13:15.053Z",
+    "duration": 54014,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "027f2dcf-71b4-41e2-b1fa-f40e33e2bdca",
+      "uuid": "1ff14dcd-ca60-41d9-8803-7215f312b911",
       "title": "",
       "fullFile": "cypress/integration/demo.feature",
       "file": "cypress/integration/demo.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f77481a6-334b-432d-b3d2-579c6d9c881a",
+          "uuid": "ed2be8e0-bbe0-4789-abc9-d258c96797e9",
           "title": "Demo Purpose for FixedDeposit and Loan functionality",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Perform FD using USDT crypto in dashboard page",
               "fullTitle": "Demo Purpose for FixedDeposit and Loan functionality Perform FD using USDT crypto in dashboard page",
               "timedOut": null,
-              "duration": 22289,
+              "duration": 31650,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "4521ded2-00b5-4646-a562-d6674843a5e4",
-              "parentUUID": "f77481a6-334b-432d-b3d2-579c6d9c881a",
+              "uuid": "45f6eef0-c2cc-45a2-b2bf-fedaa66a390a",
+              "parentUUID": "ed2be8e0-bbe0-4789-abc9-d258c96797e9",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Perform Loan using USDT crypto",
               "fullTitle": "Demo Purpose for FixedDeposit and Loan functionality Perform Loan using USDT crypto",
               "timedOut": null,
-              "duration": 22369,
+              "duration": 22364,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "277e1e9e-22be-4e4d-a76e-6ae7cfa1fcef",
-              "parentUUID": "f77481a6-334b-432d-b3d2-579c6d9c881a",
+              "uuid": "e127ffd9-e779-406b-80f9-eaeb943f514b",
+              "parentUUID": "ed2be8e0-bbe0-4789-abc9-d258c96797e9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4521ded2-00b5-4646-a562-d6674843a5e4",
-            "277e1e9e-22be-4e4d-a76e-6ae7cfa1fcef"
+            "45f6eef0-c2cc-45a2-b2bf-fedaa66a390a",
+            "e127ffd9-e779-406b-80f9-eaeb943f514b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 44658,
+          "duration": 54014,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

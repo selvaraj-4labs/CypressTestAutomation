@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run && npm run merge && npm run final-report",
+    "test": "npx cypress run --record --key 040504f5-28f8-4405-928c-ba2ee87bbb1f && npm run merge && npm run final-report",
     "merge":"mochawesome-merge cypress/reports/*.json > mochareports/output.json",
     "final-report": "marge mochareports/output.json --reportDir ./ --inline"
   },
