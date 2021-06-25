@@ -1,5 +1,6 @@
 {
-    
+
+    "testFiles": "**/*.{feature,features}",
     "chromeWebSecurity": false,
     "defaultCommandTimeout": 10000,
     "execTimeout": 60000,
@@ -12,9 +13,11 @@
         "reportDir": "cypress/reports",
         "reportFilename": "report",
         "overwrite": false,
-        "html": true,
+        "html": false,
         "json": true,
         "charts": true
     },
-    "video": false
+    "video": true
+    
+    
 }

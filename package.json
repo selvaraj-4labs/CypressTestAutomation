@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "npx cypress run && npm run merge && npm run final-report",
+    "merge":"mochawesome-merge cypress/reports/*.json > mochareports/output.json",
+    "final-report": "marge mochareports/output.json --reportDir ./ --inline"
   },
   "author": "",
   "license": "ISC",

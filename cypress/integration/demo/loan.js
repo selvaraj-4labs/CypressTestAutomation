@@ -2,7 +2,7 @@
 
 
 Given('User navigate to wallet dashboard page', () => {
-    cy.get('[routerlink="wallet"] > .ng-tns-c7-3 > .nav-link-label').click()
+    cy.get('[href="/user/wallet"]').click()
 })
 
 When('Select the currency and move to loan section', (data) => {
@@ -15,9 +15,8 @@ When('Select the currency and move to loan section', (data) => {
 Then('Enter amount and select collateral currency', (data) => {
     data.hashes().forEach((row) => {
         cy.get('input[placeholder="Enter Amount"]').eq(0).type(row.amount, {force:true})
-        cy.get('span.ng-tns-c20-39').click()
-        //cy.get('div[ngbdropdown]').eq(1).click({force:true})
-        cy.get('.search-coin')
+        cy.get('div[ngbdropdown]').eq(1).find('span').eq(0).click({force:true})
+        cy.get('input').eq(3)
             .should('be.focused')
             .type(row.currancy, {force:true})
         cy.get('div[ngbdropdown]  .v-align-middle').eq(1).click({force:true})
@@ -26,10 +25,11 @@ Then('Enter amount and select collateral currency', (data) => {
 })
 
 And('Click on take loan button', () => {
-    cy.get('.section-action > .btn').click()
+    cy.get('.section-action > .btn').click({force:true})
 })
 
 Then('Verify the success message is displayed in loan section', () => {
-    cy.get('.font-h1').contains('Success')
-    cy.get('.processing-absolute-container').contains('Your loan request is complete, and the tokens have been deposited in your wallet.')
+    cy.get('.font-h1').should('contain.text','Success')
+    cy.get('.processing-absolute-container')
+    .should('contain.text','Your loan request is complete, and the tokens have been deposited in your wallet.')
 })

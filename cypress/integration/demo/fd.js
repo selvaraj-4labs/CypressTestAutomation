@@ -8,11 +8,11 @@ Given('User in dashboard page', () => {
 
 When('Select the currency and enter amount in fixed deposit section', (data) => {
     data.hashes().forEach((row) => {
-        cy.get('span.ng-tns-c16-8').click()
+        cy.get('.coin-drop-btn > .flex-container > :nth-child(1)').click()
         cy.get('.search-coin')
             .should('be.focused')
             .type(row.currancy)
-        cy.get('span.ng-tns-c16-8 > span.v-align-middle')
+        cy.get('.flex-container > :nth-child(1) > span.v-align-middle')
             .click()
         cy.get('.pull-right > .color-secondary-light')
             .should('contain',row.currancy)
