@@ -37,7 +37,7 @@ Feature: Demo Purpose for FixedDeposit and Loan functionality
         Given User navigate to "History" tab
         Then Verify the latest record under "Fixed Deposits" section
         
-    @only
+    @wip
     Scenario: Schedule a call
         Given User click on "SCHEDULE CALL" button
         Then Verify it is navigated to new tab in the browser window

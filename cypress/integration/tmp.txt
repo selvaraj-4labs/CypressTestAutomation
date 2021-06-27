@@ -1,1 +1,165 @@
 cypress run --record --key 040504f5-28f8-4405-928c-ba2ee87bbb1f
+
+Feature: InterestEarnedInfo 
+
+Scenario: Next Payout Date and Interest Paid Out Till Date in INR is displayed against the Interest earned in Dashboard  
+
+Given User in Dashboard page 
+
+When Click on Interest Earned info bubble 
+
+Then Verify Next Payout Date 
+
+And Verify Interest Paid Out Till Date 
+
+Feature: CryptoTokenList 
+
+Scenario: Ensure all the crypto currency tokens are listed in Dashboard   
+
+Given User in Dashboard page 
+
+Then Verify Crypto tokens listed in Deposit Fund section 
+
+Feature: SelectCryptoTokenList 
+
+Scenario: User can select a crypto currency token from the list   
+
+Given User in Dashboard page 
+
+When Select a Crypto token in list 
+
+| Crypto |  
+
+       	| BTC | 
+
+Then Verify Token selected 
+
+Feature: TotalCryptoValuesAndInterest 
+
+Scenario: On selecting a crypto currency token the total crypto token available, its cost in INR and interest earned currently is displayed   
+
+Given User in Dashboard page 
+
+When Select a Crypto token in list 
+
+| Crypto |  
+
+       	| BTC | 
+
+Then Verify Total Crypto Available for selected token 
+
+And Verify Total INR Value of selected token 
+
+And Verify Interest Earned for selected token 
+
+Feature: ShareDepositAddress 
+
+Scenario: Share the Deposit address in Deposit Funds   
+
+Given User in Dashboard page 
+
+When Select a Crypto token in list 
+
+| Crypto |  
+
+       	| BTC | 
+
+And Click on Deposit Funds button 
+
+Then Verify Token in Select Asset Type 
+
+And Verify Deposit Address 
+
+And When Click on Share button 
+
+Then Verify Share Contacts dialog box opens 
+
+Feature: CreateFDOption 
+
+Scenario: Option to Create an FD in Dashboard   
+
+Given User in Dashboard page 
+
+When Select a Crypto token in Amount list and enter Amount 
+
+| Crypto | | Amount |  
+
+     	 | BTC    |  | 1 BTC |  
+
+Then Verify Create Fixed Deposit button active 
+
+Feature: DepositAndEarnRates 
+
+Scenario: All tokens and their FD interest are displayed under the Deposit and Earn in Dashboard   
+
+Given User in Dashboard page 
+
+Then Verify All tokens and their FD interest displayed 
+
+Feature: GoToBuyAndSell 
+
+Scenario: Navigate to the Instant Buy & Sell page from Dashboard    
+
+Given User in Dashboard page 
+
+When Click on Buy Now option 
+
+Then Navigate to Instant Buy & Sell page 
+
+Feature: GoToInstantSwap 
+
+Scenario: Navigate to the Instant Swap page from Dashboard   
+
+Given User in Dashboard page 
+
+When Click on Swap Now option 
+
+Then Navigate to Instant Swap page 
+
+Feature: GoToProTrading 
+
+Scenario: Navigate to the Vauld trading page from Dashboard   
+
+Given User in Dashboard page 
+
+When Click on Trade Now option 
+
+Then Navigate to Pro trading page 
+
+Feature: AccountMgrDt 
+
+Scenario: Account manager details are displayed   
+
+Given User in Dashboard page 
+
+Then Verify Account Manager Name 
+
+And Verify Account Manager Picture 
+
+And Verify Account Manager EmailID 
+
+And Verify Account Manager Telegram Handle 
+
+Feature: CallAccountMgr 
+
+Scenario: Call Me Now and Schedule Call are displayed to contact Accounts manager   
+
+Given User in Dashboard page 
+
+When Click on Call Me Now button 
+
+Then Verify Confirm Call displayed 
+
+And When Click on Schedule Call button 
+
+Then Verify Schedule Call dialog box appears 
+
+Feature: MsgSupport 
+
+Scenario: Support center option is available on Dashboard 
+
+Given User in Dashboard page 
+
+When Click on Support button 
+
+Then Verify Support Center Message dialog box appears 

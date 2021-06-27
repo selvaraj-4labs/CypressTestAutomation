@@ -9,12 +9,15 @@ Then('Verify the latest record under {string} section', (value) => {
 })
 
 Given('User click on {string} button', (value) => {
-    cy.get('.btn-secondary').click()
+    const pop_url = 'http://bit.ly/talktodarshan'
+    cy.window().then(win => {
+        const stub = cy.stub(win,'open').as('new_window')
+    })
+    cy.get('.btn-secondary').invoke('removeAttr','target').click()
+    cy.get('@new_window').should('be.calledWith',pop_url)
+    //cy.url().should('include','meeting')
 })
 
 Then('Verify it is navigated to new tab in the browser window', () => {
-    cy.switchToTab('Conversation with Darshan')
-    //cy.title().should('contain','Conversation')
-    //cy.url().should('include','hubspot')
-    cy.closeAllTabs()
+    //cy.get('')
 })
