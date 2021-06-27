@@ -15,11 +15,15 @@
   "reporterOptions": {
     "reportDir": "cypress/reports",
     "reportFilename": "report",
+    "reportPageTitle": "Vauld Test Automation",
+    "embeddedScreenshots": true,
+    "inlineAssets": true,
     "overwrite": false,
     "html": false,
     "json": true,
     "charts": true
   },
   "video": true,
+  "screenshotsFolder": "images",
   "projectId": "4yd6zw"
 }

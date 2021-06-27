@@ -24,6 +24,7 @@ Then('Verify Total Asset Value is displayed', () => {
         .should('be.visible')
     cy.get(':nth-child(1) > .font-h1')
         .should('contain.text',' ₹')
+        .should('not.be.empty')
 })
 
 And('Verify Total Interest Earned is displayed', () => {
@@ -31,9 +32,12 @@ And('Verify Total Interest Earned is displayed', () => {
         .should('be.visible')
     cy.get('.row > :nth-child(2) > .font-h1')
         .should('contain.text','₹')
+        .should('not.be.empty')
     cy.get('[tooltipclass="tooltip-class int"]')
-        .trigger('mouseover')
-    cy.get('#ngb-tooltip-1')
+        .click()
+        .click()
+    cy.get('ngb-tooltip-window')
+        .should('exist')
         .should('contain.text','Next Payout Date')
         .should('contain.text','Interest Paid Out Till Date')
 })

@@ -1,33 +1,32 @@
 /// <reference types="cypress" />
 
 var cyp = ""
+var amnt = ""
 
 Given('User in dashboard page', () => {
     cy.url().should('include','dashboard')
 })
 
-When('Select the currency and enter amount in fixed deposit section', (data) => {
-    data.hashes().forEach((row) => {
+When('Select the currency {string} and enter amount {string} in fixed deposit section', (currancy,amount) => {
         cy.get('.coin-drop-btn > .flex-container > :nth-child(1)').click()
         cy.get('.search-coin')
             .should('be.focused')
-            .type(row.currancy)
+            .type(currancy)
         cy.get('.flex-container > :nth-child(1) > span.v-align-middle')
             .click()
         cy.get('.pull-right > .color-secondary-light')
-            .should('contain',row.currancy)
+            .should('contain',currancy)
         cy.get('.int-rate-section > .text-center > .v-align-middle')
-            .should('contain',row.currancy)
+            .should('contain',currancy)
         cy.get('[placeholder="Amount"]')
             .should('have.value','')
-            .type(row.amount)
-            .should('have.value',row.amount)
+            .type(amount)
+            .should('have.value',amount)
         cy.get('.dollar-holder > .font-h5')
             .should('exist')
             .should('be.visible')
-        cyp = row.currancy
-    })
-
+        cyp = currancy
+        amnt = amount
 })
 
 Then('Verify payout amount and interest rate fields changed', () => {
@@ -55,3 +54,15 @@ Then('Verify the success message is displayed', () => {
         .should('contain',cyp)
 })
 
+And('Verify the latest record under {string} section', (tabName) => {
+    cy.xpath(`//span[text()="${tabName}"]`).click()
+    cy.get('.table-body > :nth-child(1)')
+        .should('contain.text', cyp + " " + amnt)
+})
+
+And('Navigate to {string} tab and Verify the latest record under {string} section', (tabName,sectionName) => {
+    cy.xpath(`//span[text()="${tabName}"]`).click()
+    cy.xpath(`//span[text()="${sectionName}"]`).eq(1).click()
+    cy.get('.table-body > :nth-child(1)')
+        .should('contain.text', cyp + " " + amnt)
+})

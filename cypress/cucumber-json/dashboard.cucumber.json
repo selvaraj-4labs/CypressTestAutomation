@@ -1,0 +1,67 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Dashboard",
+    "line": 1,
+    "id": "dashboard",
+    "tags": [],
+    "uri": "dashboard.feature",
+    "elements": [
+      {
+        "id": "dashboard;total-asset-value-and-total-interest-earned-is-displayed-in-dashboard",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Total Asset Value and Total Interest Earned is displayed in Dashboard",
+        "tags": [
+          {
+            "name": "@only",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigate to the vauld website",
+            "result": {
+              "status": "passed",
+              "duration": 18938000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter \"hemanth3936@gmail.com\" as username and \"@Nine995888437\" as password",
+            "result": {
+              "status": "passed",
+              "duration": 6102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify Total Asset Value is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 2339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Verify Total Interest Earned is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1250000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
