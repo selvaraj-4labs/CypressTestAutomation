@@ -10,7 +10,7 @@ Feature: Demo Purpose for FixedDeposit and Loan functionality
         And Enter the OTP and Click on Continue button
         Then Verify user successfully navigated to the dashboard page
     
-    @ignore
+    @focus
     Scenario: Perform FD using USDT crypto in dashboard page
         Given User in dashboard page
         When Select the currency 'USDT' and enter amount '2.1225' in fixed deposit section
@@ -20,7 +20,7 @@ Feature: Demo Purpose for FixedDeposit and Loan functionality
         And Verify the latest record under "Fixed Deposits" section
         And Navigate to 'History' tab and Verify the latest record under 'Fixed Deposits' section
 
-    @skip   
+    @focus   
     Scenario: Perform Loan using USDT crypto
         Given User navigate to wallet dashboard page
         When Select the currency 'USDT' and move to loan section

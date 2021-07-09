@@ -1,0 +1,62 @@
+{
+  "uid" : "a15c3f4e9539570b",
+  "name" : "Total Asset Value and Total Interest Earned is displayed in Dashboard",
+  "fullName" : "Dashboard.Total Asset Value and Total Interest Earned is displayed in Dashboard",
+  "historyId" : "2b600b8f33cbd463662ac3c56fc3e5cb",
+  "time" : {
+    "start" : 1624864096118,
+    "stop" : 1624864122903,
+    "duration" : 26785
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Dashboard"
+  }, {
+    "name" : "testClass",
+    "value" : "Dashboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "Total Asset Value and Total Interest Earned is displayed in Dashboard"
+  }, {
+    "name" : "package",
+    "value" : "Dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "69f5a5ecc6173c62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624863414266,
+        "stop" : 1624863438451,
+        "duration" : 24185
+      }
+    }, {
+      "uid" : "3d4249ba9ff0addb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624852731902,
+        "stop" : 1624852762213,
+        "duration" : 30311
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a15c3f4e9539570b.json",
+  "parameterValues" : [ ]
+}

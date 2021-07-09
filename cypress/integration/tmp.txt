@@ -1,4 +1,25 @@
 cypress run --record --key 040504f5-28f8-4405-928c-ba2ee87bbb1f
+Your order has been executed 
+ We will send you an email once the exchange is completed. 
+  
+  "screenshotsFolder": "images",
+
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/my-test-output-[hash].xml",
+    "toConsole": true
+  },
+
+  
+  
+  "reporter": "cypress-multi-reporters",
+  "reporterEnabled": "spec, mocha-junit-reporter",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": "cypress/results/results-[hash].xml"
+  },
 
 Feature: InterestEarnedInfo 
 

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "59c608aef6cc6c58",
+  "name" : "Perform FD using USDT crypto in dashboard page",
+  "time" : {
+    "start" : 1624864130381,
+    "stop" : 1624864161183,
+    "duration" : 30802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af40f6c021b0179c",
+  "name" : "Perform Loan using USDT crypto",
+  "time" : {
+    "start" : 1624864161186,
+    "stop" : 1624864184982,
+    "duration" : 23796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a15c3f4e9539570b",
+  "name" : "Total Asset Value and Total Interest Earned is displayed in Dashboard",
+  "time" : {
+    "start" : 1624864096118,
+    "stop" : 1624864122903,
+    "duration" : 26785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

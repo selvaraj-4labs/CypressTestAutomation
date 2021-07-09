@@ -14,7 +14,7 @@
         "name": "Perform FD using USDT crypto in dashboard page",
         "tags": [
           {
-            "name": "@ignore",
+            "name": "@focus",
             "line": 13
           }
         ],
@@ -26,7 +26,8 @@
             "line": 5,
             "name": "User navigate to the vauld website",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14615000000
             }
           },
           {
@@ -52,7 +53,8 @@
             "line": 6,
             "name": "Enter the credentials and click on Sign in button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2348000000
             }
           },
           {
@@ -61,7 +63,8 @@
             "line": 9,
             "name": "Choose Yes I trust the device option",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3247000000
             }
           },
           {
@@ -70,7 +73,8 @@
             "line": 10,
             "name": "Enter the OTP and Click on Continue button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1582000000
             }
           },
           {
@@ -79,7 +83,8 @@
             "line": 11,
             "name": "Verify user successfully navigated to the dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2344000000
             }
           },
           {
@@ -88,7 +93,8 @@
             "line": 15,
             "name": "User in dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 131000000
             }
           },
           {
@@ -97,7 +103,8 @@
             "line": 16,
             "name": "Select the currency 'USDT' and enter amount '2.1225' in fixed deposit section",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 6888000000
             }
           },
           {
@@ -106,7 +113,8 @@
             "line": 17,
             "name": "Verify payout amount and interest rate fields changed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 513000000
             }
           },
           {
@@ -115,7 +123,8 @@
             "line": 18,
             "name": "Click on create fixed deposit button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 950000000
             }
           },
           {
@@ -124,7 +133,8 @@
             "line": 19,
             "name": "Verify the success message is displayed",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3635000000
             }
           },
           {
@@ -133,7 +143,8 @@
             "line": 20,
             "name": "Verify the latest record under \"Fixed Deposits\" section",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2595000000
             }
           },
           {
@@ -142,7 +153,8 @@
             "line": 21,
             "name": "Navigate to 'History' tab and Verify the latest record under 'Fixed Deposits' section",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5159000000
             }
           }
         ]
@@ -154,7 +166,7 @@
         "name": "Perform Loan using USDT crypto",
         "tags": [
           {
-            "name": "@skip",
+            "name": "@focus",
             "line": 23
           }
         ],
@@ -166,7 +178,8 @@
             "line": 5,
             "name": "User navigate to the vauld website",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 13103000000
             }
           },
           {
@@ -192,7 +205,8 @@
             "line": 6,
             "name": "Enter the credentials and click on Sign in button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2138000000
             }
           },
           {
@@ -201,7 +215,8 @@
             "line": 9,
             "name": "Choose Yes I trust the device option",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2533000000
             }
           },
           {
@@ -210,7 +225,8 @@
             "line": 10,
             "name": "Enter the OTP and Click on Continue button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1488000000
             }
           },
           {
@@ -219,7 +235,8 @@
             "line": 11,
             "name": "Verify user successfully navigated to the dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1740000000
             }
           },
           {
@@ -228,7 +245,8 @@
             "line": 25,
             "name": "User navigate to wallet dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2988000000
             }
           },
           {
@@ -237,7 +255,8 @@
             "line": 26,
             "name": "Select the currency 'USDT' and move to loan section",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2203000000
             }
           },
           {
@@ -246,7 +265,8 @@
             "line": 27,
             "name": "Enter amount '12.1225' and select collateral currency 'XLM'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3751000000
             }
           },
           {
@@ -255,7 +275,8 @@
             "line": 28,
             "name": "Click on take loan button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 447000000
             }
           },
           {
@@ -264,7 +285,8 @@
             "line": 29,
             "name": "Verify the success message is displayed in loan section",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3051000000
             }
           },
           {
@@ -273,7 +295,8 @@
             "line": 30,
             "name": "Verify the latest record in 'History' tab",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4829000000
             }
           }
         ]

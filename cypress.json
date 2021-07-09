@@ -1,11 +1,14 @@
 {
   "baseUrl": "https://uat.bankofhodlers.com/auth/signin",
   "env": {
-    "TAGS": "not (@ignore or @skip or @wip) and (@focus or @only)"
+    "TAGS": "not (@ignore or @skip or @wip) and (@focus or @only)",
+    "userName": "hemanth3936@gmail.com",
+    "password": "@Nine995888437"
   },
   "ignoreTestFiles": "*.js",
   "testFiles": "**/*.{feature,features}",
   "chromeWebSecurity": false,
+  "video": false,
   "defaultCommandTimeout": 10000,
   "execTimeout": 60000,
   "pageLoadTimeout": 60000,
@@ -23,7 +26,5 @@
     "json": true,
     "charts": true
   },
-  "video": true,
-  "screenshotsFolder": "images",
   "projectId": "4yd6zw"
 }

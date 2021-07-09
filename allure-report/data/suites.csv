@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 28 12:38:50 IST 2021","Mon Jun 28 12:39:21 IST 2021","30802","","Demo Purpose for FixedDeposit and Loan functionality","","Demo Purpose for FixedDeposit and Loan functionality","Perform FD using USDT crypto in dashboard page","Perform FD using USDT crypto in dashboard page",""
+"passed","Mon Jun 28 12:39:21 IST 2021","Mon Jun 28 12:39:44 IST 2021","23796","","Demo Purpose for FixedDeposit and Loan functionality","","Demo Purpose for FixedDeposit and Loan functionality","Perform Loan using USDT crypto","Perform Loan using USDT crypto",""
+"passed","Mon Jun 28 12:38:16 IST 2021","Mon Jun 28 12:38:42 IST 2021","26785","","Dashboard","","Dashboard","Total Asset Value and Total Interest Earned is displayed in Dashboard","Total Asset Value and Total Interest Earned is displayed in Dashboard",""

@@ -1,0 +1,122 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Perform Loan using USDT crypto",
+    "uid" : "3bd47787d35b0ffd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1624863445774,
+      "stop" : 1624863445797,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Perform Loan using USDT crypto",
+    "uid" : "a410bde00938e39a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1624852789081,
+      "stop" : 1624852789106,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Perform FD using USDT crypto in dashboard page",
+    "uid" : "45300d1c30ba2c54",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1624852789056,
+      "stop" : 1624852789074,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Total Asset Value and Total Interest Earned is displayed in Dashboard",
+    "uid" : "69f5a5ecc6173c62",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624863414266,
+      "stop" : 1624863438451,
+      "duration" : 24185
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Perform FD using USDT crypto in dashboard page",
+    "uid" : "59c608aef6cc6c58",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624864130381,
+      "stop" : 1624864161183,
+      "duration" : 30802
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Total Asset Value and Total Interest Earned is displayed in Dashboard",
+    "uid" : "a15c3f4e9539570b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624864096118,
+      "stop" : 1624864122903,
+      "duration" : 26785
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Perform FD using USDT crypto in dashboard page",
+    "uid" : "370af5c2fdeb79a3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1624863445719,
+      "stop" : 1624863445763,
+      "duration" : 44
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Total Asset Value and Total Interest Earned is displayed in Dashboard",
+    "uid" : "3d4249ba9ff0addb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624852731902,
+      "stop" : 1624852762213,
+      "duration" : 30311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Perform Loan using USDT crypto",
+    "uid" : "af40f6c021b0179c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624864161186,
+      "stop" : 1624864184982,
+      "duration" : 23796
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

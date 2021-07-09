@@ -1,0 +1,62 @@
+{
+  "uid" : "af40f6c021b0179c",
+  "name" : "Perform Loan using USDT crypto",
+  "fullName" : "Demo Purpose for FixedDeposit and Loan functionality.Perform Loan using USDT crypto",
+  "historyId" : "43f499b6a098abe97493bef5ee306e3f",
+  "time" : {
+    "start" : 1624864161186,
+    "stop" : 1624864184982,
+    "duration" : 23796
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo Purpose for FixedDeposit and Loan functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo Purpose for FixedDeposit and Loan functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Perform Loan using USDT crypto"
+  }, {
+    "name" : "package",
+    "value" : "Demo Purpose for FixedDeposit and Loan functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3bd47787d35b0ffd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1624863445774,
+        "stop" : 1624863445797,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "a410bde00938e39a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1624852789081,
+        "stop" : 1624852789106,
+        "duration" : 25
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af40f6c021b0179c.json",
+  "parameterValues" : [ ]
+}

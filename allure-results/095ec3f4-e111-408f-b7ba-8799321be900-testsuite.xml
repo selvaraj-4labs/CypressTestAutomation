@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624863445588' stop='1624863445847'>
+    <name>Demo Purpose for FixedDeposit and Loan functionality</name>
+    <title>Demo Purpose for FixedDeposit and Loan functionality</title>
+    <test-cases>
+        <test-case start='1624863445719' status='skipped' stop='1624863445763'>
+            <name>Perform FD using USDT crypto in dashboard page</name>
+            <title>Perform FD using USDT crypto in dashboard page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624863445774' status='skipped' stop='1624863445797'>
+            <name>Perform Loan using USDT crypto</name>
+            <title>Perform Loan using USDT crypto</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

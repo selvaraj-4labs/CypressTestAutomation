@@ -1,0 +1,44 @@
+{
+  "uid" : "45300d1c30ba2c54",
+  "name" : "Perform FD using USDT crypto in dashboard page",
+  "fullName" : "Demo Purpose for FixedDeposit and Loan functionality.Perform FD using USDT crypto in dashboard page",
+  "historyId" : "2864038f340691ad3577e12d46ddcec0",
+  "time" : {
+    "start" : 1624852789056,
+    "stop" : 1624852789074,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo Purpose for FixedDeposit and Loan functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo Purpose for FixedDeposit and Loan functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "Perform FD using USDT crypto in dashboard page"
+  }, {
+    "name" : "package",
+    "value" : "Demo Purpose for FixedDeposit and Loan functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45300d1c30ba2c54.json",
+  "parameterValues" : [ ]
+}
