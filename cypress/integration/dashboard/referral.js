@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+var campaign_code = ""
 
 And('Enter the new campaign code', function() {
     campaign_code = Math.random().toString().substr(2, 5)

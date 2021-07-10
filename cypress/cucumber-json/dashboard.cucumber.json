@@ -8,84 +8,6 @@
     "uri": "dashboard.feature",
     "elements": [
       {
-        "id": "vauld---smoke;#1)-dashboard---your-funds",
-        "keyword": "Scenario",
-        "line": 4,
-        "name": "#1) Dashboard - Your Funds",
-        "tags": [
-          {
-            "name": "@skip",
-            "line": 3
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "As a existing Vauld user in Dashboard page",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "It should display Total Asset and Interest Earned",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "Select Crypto 'ETH' in Your Funds section",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "It should display the 'ETH' balance",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 9,
-            "name": "Click on 'deposit funds' button",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "It should display 'ETH' and deposit address",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "It should display Share link",
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
         "id": "vauld---smoke;#2)-dashboard---fixed-deposit",
         "keyword": "Scenario",
         "line": 14,
@@ -142,18 +64,27 @@
             "result": {
               "status": "skipped"
             }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Perform deletion on created record",
+            "result": {
+              "status": "skipped"
+            }
           }
         ]
       },
       {
         "id": "vauld---smoke;#3)-dashboard---start-trading",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 23,
         "name": "#3) Dashboard - Start Trading",
         "tags": [
           {
             "name": "@skip",
-            "line": 21
+            "line": 22
           }
         ],
         "type": "scenario",
@@ -161,7 +92,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 23,
+            "line": 24,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -170,7 +101,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 24,
+            "line": 25,
             "name": "Click on 'SWAP NOW' link",
             "result": {
               "status": "skipped"
@@ -179,7 +110,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 25,
+            "line": 26,
             "name": "It should navigate to Instant Swap page",
             "result": {
               "status": "skipped"
@@ -188,7 +119,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 26,
+            "line": 27,
             "name": "Click on 'Dashboard' link",
             "result": {
               "status": "skipped"
@@ -197,7 +128,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 27,
+            "line": 28,
             "name": "Click on 'BUY NOW' link",
             "result": {
               "status": "skipped"
@@ -206,7 +137,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
+            "line": 29,
             "name": "It should navigate to Buy page",
             "result": {
               "status": "skipped"
@@ -215,7 +146,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 29,
+            "line": 30,
             "name": "Click on 'Dashboard' link",
             "result": {
               "status": "skipped"
@@ -224,7 +155,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 30,
+            "line": 31,
             "name": "Click on 'TRADE NOW' link",
             "result": {
               "status": "skipped"
@@ -233,7 +164,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 31,
+            "line": 32,
             "name": "It should navigate to trading page",
             "result": {
               "status": "skipped"
@@ -242,7 +173,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 32,
+            "line": 33,
             "name": "Click on 'EXIT TRADING' link",
             "result": {
               "status": "skipped"
@@ -253,12 +184,12 @@
       {
         "id": "vauld---smoke;#4)-dashboard---your-account-manager",
         "keyword": "Scenario",
-        "line": 35,
+        "line": 36,
         "name": "#4) Dashboard - Your Account Manager",
         "tags": [
           {
             "name": "@skip",
-            "line": 34
+            "line": 35
           }
         ],
         "type": "scenario",
@@ -266,7 +197,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 36,
+            "line": 37,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -275,7 +206,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 37,
+            "line": 38,
             "name": "Click on 'CALL ME NOW' button",
             "result": {
               "status": "skipped"
@@ -284,7 +215,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 38,
+            "line": 39,
             "name": "Update phone number '9092680083'",
             "result": {
               "status": "skipped"
@@ -293,7 +224,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 39,
+            "line": 40,
             "name": "Click on 'Call Now' button",
             "result": {
               "status": "skipped"
@@ -302,7 +233,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 40,
+            "line": 41,
             "name": "It should display as 'Thank you! We will be calling you shortly'",
             "result": {
               "status": "skipped"
@@ -311,7 +242,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 41,
+            "line": 42,
             "name": "Schedule Call should navigate to meeting book page",
             "result": {
               "status": "skipped"
@@ -322,12 +253,12 @@
       {
         "id": "vauld---smoke;#5)-wallet---deposit",
         "keyword": "Scenario",
-        "line": 47,
+        "line": 48,
         "name": "#5) Wallet - Deposit",
         "tags": [
           {
             "name": "@skip",
-            "line": 46
+            "line": 47
           }
         ],
         "type": "scenario",
@@ -335,7 +266,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 48,
+            "line": 49,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -344,7 +275,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 49,
+            "line": 50,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -353,7 +284,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 50,
+            "line": 51,
             "name": "Click on 'BTC' link",
             "result": {
               "status": "skipped"
@@ -362,7 +293,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 51,
+            "line": 52,
             "name": "It displays 'BTC' and deposit address",
             "result": {
               "status": "skipped"
@@ -371,7 +302,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 52,
+            "line": 53,
             "name": "It display Share link",
             "result": {
               "status": "skipped"
@@ -382,12 +313,12 @@
       {
         "id": "vauld---smoke;#6)-wallet---send",
         "keyword": "Scenario",
-        "line": 55,
+        "line": 56,
         "name": "#6) Wallet - Send",
         "tags": [
           {
             "name": "@skip",
-            "line": 54
+            "line": 55
           }
         ],
         "type": "scenario",
@@ -395,7 +326,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 56,
+            "line": 57,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -404,7 +335,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 57,
+            "line": 58,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -413,7 +344,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 58,
+            "line": 59,
             "name": "Click on 'ETH' link",
             "result": {
               "status": "skipped"
@@ -422,7 +353,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 59,
+            "line": 60,
             "name": "Click on 'send' Link",
             "result": {
               "status": "skipped"
@@ -431,7 +362,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 60,
+            "line": 61,
             "name": "Enter amount '0.0001'",
             "result": {
               "status": "skipped"
@@ -440,7 +371,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 61,
+            "line": 62,
             "name": "Select Receiver Address",
             "result": {
               "status": "skipped"
@@ -449,7 +380,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 62,
+            "line": 63,
             "name": "Click on 'GENERATE OTP' Button",
             "result": {
               "status": "skipped"
@@ -458,7 +389,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 63,
+            "line": 64,
             "name": "Enter OTP",
             "result": {
               "status": "skipped"
@@ -467,7 +398,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 64,
+            "line": 65,
             "name": "Click on 'SEND' Button",
             "result": {
               "status": "skipped"
@@ -476,7 +407,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 65,
+            "line": 66,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -485,7 +416,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 66,
+            "line": 67,
             "name": "It should also display message as 'Your request has been initiated, You will receive an update on registered e-mail, after confirmation from the blockchain'",
             "result": {
               "status": "skipped"
@@ -496,12 +427,12 @@
       {
         "id": "vauld---smoke;#7)-wallet---loans---take-loan",
         "keyword": "Scenario",
-        "line": 69,
+        "line": 70,
         "name": "#7) Wallet - Loans - Take Loan",
         "tags": [
           {
             "name": "@skip",
-            "line": 68
+            "line": 69
           }
         ],
         "type": "scenario",
@@ -509,7 +440,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 70,
+            "line": 71,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -518,7 +449,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 71,
+            "line": 72,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -527,7 +458,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 72,
+            "line": 73,
             "name": "Click on 'BTC' link",
             "result": {
               "status": "skipped"
@@ -536,7 +467,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 73,
+            "line": 74,
             "name": "Click on 'loans' Link",
             "result": {
               "status": "skipped"
@@ -545,7 +476,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 74,
+            "line": 75,
             "name": "Enter amount '0.001'",
             "result": {
               "status": "skipped"
@@ -554,7 +485,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 75,
+            "line": 76,
             "name": "Select the Collateral Currency 'ETH'",
             "result": {
               "status": "skipped"
@@ -563,7 +494,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 76,
+            "line": 77,
             "name": "Click on 'Take Loan' Button",
             "result": {
               "status": "skipped"
@@ -572,7 +503,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 77,
+            "line": 78,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -581,7 +512,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 78,
+            "line": 79,
             "name": "It should also display message as 'Your loan request is complete, and the tokens have been deposited in your wallet.'",
             "result": {
               "status": "skipped"
@@ -592,12 +523,12 @@
       {
         "id": "vauld---smoke;#8)-wallet---pay-back-loan-using-crypto",
         "keyword": "Scenario",
-        "line": 81,
+        "line": 82,
         "name": "#8) Wallet - Pay Back Loan using Crypto",
         "tags": [
           {
             "name": "@skip",
-            "line": 80
+            "line": 81
           }
         ],
         "type": "scenario",
@@ -605,7 +536,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 82,
+            "line": 83,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -614,7 +545,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 83,
+            "line": 84,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -623,7 +554,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 84,
+            "line": 85,
             "name": "Click on 'BTC' link",
             "result": {
               "status": "skipped"
@@ -632,7 +563,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 85,
+            "line": 86,
             "name": "Click on 'loans' Link",
             "result": {
               "status": "skipped"
@@ -641,7 +572,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 86,
+            "line": 87,
             "name": "Click on 'View Loans' Link",
             "result": {
               "status": "skipped"
@@ -650,7 +581,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 87,
+            "line": 88,
             "name": "Click on active loan",
             "result": {
               "status": "skipped"
@@ -659,7 +590,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 88,
+            "line": 89,
             "name": "Click on 'Pay Back Loan' Button",
             "result": {
               "status": "skipped"
@@ -668,7 +599,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 89,
+            "line": 90,
             "name": "Pay back option selected as default",
             "result": {
               "status": "skipped"
@@ -677,7 +608,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 90,
+            "line": 91,
             "name": "Click on 'Continue' Button",
             "result": {
               "status": "skipped"
@@ -686,7 +617,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 91,
+            "line": 92,
             "name": "Click on 'FULL' Button",
             "result": {
               "status": "skipped"
@@ -695,7 +626,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 92,
+            "line": 93,
             "name": "It should display the amount",
             "result": {
               "status": "skipped"
@@ -704,7 +635,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 93,
+            "line": 94,
             "name": "Click on 'Make Payment' Button",
             "result": {
               "status": "skipped"
@@ -713,7 +644,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 94,
+            "line": 95,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -722,7 +653,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 95,
+            "line": 96,
             "name": "It should also display message as 'Your Payment is Successful and your loan is closed!'",
             "result": {
               "status": "skipped"
@@ -733,12 +664,12 @@
       {
         "id": "vauld---smoke;#9)-wallet---pay-back-loan-using-collateral",
         "keyword": "Scenario",
-        "line": 98,
+        "line": 99,
         "name": "#9) Wallet - Pay Back Loan using Collateral",
         "tags": [
           {
             "name": "@skip",
-            "line": 97
+            "line": 98
           }
         ],
         "type": "scenario",
@@ -746,7 +677,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 99,
+            "line": 100,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -755,7 +686,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 100,
+            "line": 101,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -764,7 +695,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 101,
+            "line": 102,
             "name": "Click on 'BTC' link",
             "result": {
               "status": "skipped"
@@ -773,7 +704,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 102,
+            "line": 103,
             "name": "Click on 'loans' Link",
             "result": {
               "status": "skipped"
@@ -782,7 +713,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 103,
+            "line": 104,
             "name": "Click on 'View Loans' Link",
             "result": {
               "status": "skipped"
@@ -791,7 +722,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 104,
+            "line": 105,
             "name": "Click on active loan",
             "result": {
               "status": "skipped"
@@ -800,7 +731,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 105,
+            "line": 106,
             "name": "Click on 'Pay Back Loan' Button",
             "result": {
               "status": "skipped"
@@ -809,7 +740,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 106,
+            "line": 107,
             "name": "Click on Close loan using Collateral option",
             "result": {
               "status": "skipped"
@@ -818,7 +749,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 107,
+            "line": 108,
             "name": "Click on 'Continue' Button",
             "result": {
               "status": "skipped"
@@ -827,7 +758,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 108,
+            "line": 109,
             "name": "It should display the amount to be deducted and refunded",
             "result": {
               "status": "skipped"
@@ -836,7 +767,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 109,
+            "line": 110,
             "name": "Click on 'Confirm' Button",
             "result": {
               "status": "skipped"
@@ -845,7 +776,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 110,
+            "line": 111,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -854,7 +785,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 111,
+            "line": 112,
             "name": "It should also display message as 'Your request to close the loan with collateral is in progress and will be processed shortly!'",
             "result": {
               "status": "skipped"
@@ -865,12 +796,12 @@
       {
         "id": "vauld---smoke;#10)-wallet---take-more-loan",
         "keyword": "Scenario",
-        "line": 114,
+        "line": 115,
         "name": "#10) Wallet - Take More Loan",
         "tags": [
           {
             "name": "@skip",
-            "line": 113
+            "line": 114
           }
         ],
         "type": "scenario",
@@ -878,7 +809,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 115,
+            "line": 116,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -887,7 +818,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 116,
+            "line": 117,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -896,7 +827,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 117,
+            "line": 118,
             "name": "Click on 'BTC' link",
             "result": {
               "status": "skipped"
@@ -905,7 +836,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 118,
+            "line": 119,
             "name": "Click on 'loans' Link",
             "result": {
               "status": "skipped"
@@ -914,7 +845,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 119,
+            "line": 120,
             "name": "Click on 'View Loans' Link",
             "result": {
               "status": "skipped"
@@ -923,7 +854,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 120,
+            "line": 121,
             "name": "Click on active loan",
             "result": {
               "status": "skipped"
@@ -932,17 +863,8 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 121,
-            "name": "Click on 'Take More Loan' Button",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 122,
-            "name": "Click on 'MAX' Button",
+            "name": "Click on 'Take More Loan' Button",
             "result": {
               "status": "skipped"
             }
@@ -951,6 +873,15 @@
             "arguments": [],
             "keyword": "And ",
             "line": 123,
+            "name": "Click on 'MAX' Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 124,
             "name": "Click on 'Take More Loan' Button",
             "result": {
               "status": "skipped"
@@ -959,7 +890,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 124,
+            "line": 125,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -968,7 +899,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 125,
+            "line": 126,
             "name": "It should also display message as 'Add-on loan has been disbursed to your account successfully!'",
             "result": {
               "status": "skipped"
@@ -979,12 +910,12 @@
       {
         "id": "vauld---smoke;#11)-wallet---add-more-collateral",
         "keyword": "Scenario",
-        "line": 128,
+        "line": 129,
         "name": "#11) Wallet - Add More Collateral",
         "tags": [
           {
             "name": "@skip",
-            "line": 127
+            "line": 128
           }
         ],
         "type": "scenario",
@@ -992,7 +923,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 129,
+            "line": 130,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1001,7 +932,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 130,
+            "line": 131,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -1010,7 +941,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 131,
+            "line": 132,
             "name": "Click on 'BTC' link",
             "result": {
               "status": "skipped"
@@ -1019,7 +950,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 132,
+            "line": 133,
             "name": "Click on 'loans' Link",
             "result": {
               "status": "skipped"
@@ -1028,7 +959,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 133,
+            "line": 134,
             "name": "Click on 'View Loans' Link",
             "result": {
               "status": "skipped"
@@ -1037,7 +968,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 134,
+            "line": 135,
             "name": "Click on active loan",
             "result": {
               "status": "skipped"
@@ -1046,7 +977,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 135,
+            "line": 136,
             "name": "Click on 'Add Collateral' Button",
             "result": {
               "status": "skipped"
@@ -1055,7 +986,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 136,
+            "line": 137,
             "name": "Enter amount '0.005'",
             "result": {
               "status": "skipped"
@@ -1064,7 +995,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 137,
+            "line": 138,
             "name": "Click on 'Add More Collateral' Button",
             "result": {
               "status": "skipped"
@@ -1073,7 +1004,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 138,
+            "line": 139,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -1082,7 +1013,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 139,
+            "line": 140,
             "name": "It should also display message as 'Collateral has been added for this loan successfully!'",
             "result": {
               "status": "skipped"
@@ -1093,12 +1024,12 @@
       {
         "id": "vauld---smoke;#12)-wallet---release-collateral",
         "keyword": "Scenario",
-        "line": 142,
+        "line": 143,
         "name": "#12) Wallet - Release Collateral",
         "tags": [
           {
             "name": "@skip",
-            "line": 141
+            "line": 142
           }
         ],
         "type": "scenario",
@@ -1106,7 +1037,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 143,
+            "line": 144,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1115,7 +1046,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 144,
+            "line": 145,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -1124,7 +1055,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 145,
+            "line": 146,
             "name": "Click on 'BTC' link",
             "result": {
               "status": "skipped"
@@ -1133,7 +1064,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 146,
+            "line": 147,
             "name": "Click on 'loans' Link",
             "result": {
               "status": "skipped"
@@ -1142,7 +1073,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 147,
+            "line": 148,
             "name": "Click on 'View Loans' Link",
             "result": {
               "status": "skipped"
@@ -1151,7 +1082,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 148,
+            "line": 149,
             "name": "Click on active loan",
             "result": {
               "status": "skipped"
@@ -1160,7 +1091,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 149,
+            "line": 150,
             "name": "Click on 'Remove Collateral' Button",
             "result": {
               "status": "skipped"
@@ -1169,7 +1100,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 150,
+            "line": 151,
             "name": "Click on 'MAX' Button",
             "result": {
               "status": "skipped"
@@ -1178,7 +1109,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 151,
+            "line": 152,
             "name": "It should display the amount",
             "result": {
               "status": "skipped"
@@ -1187,7 +1118,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 152,
+            "line": 153,
             "name": "Click on 'Release Collateral' Button",
             "result": {
               "status": "skipped"
@@ -1196,7 +1127,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 153,
+            "line": 154,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -1205,7 +1136,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 154,
+            "line": 155,
             "name": "It should also display message as 'Collateral has been unlocked successfully!'",
             "result": {
               "status": "skipped"
@@ -1216,12 +1147,12 @@
       {
         "id": "vauld---smoke;#13)-wallet---deposit-via-rtgs",
         "keyword": "Scenario",
-        "line": 157,
+        "line": 158,
         "name": "#13) Wallet - Deposit Via RTGS",
         "tags": [
           {
             "name": "@skip",
-            "line": 156
+            "line": 157
           }
         ],
         "type": "scenario",
@@ -1229,7 +1160,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 158,
+            "line": 159,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1238,7 +1169,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 159,
+            "line": 160,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -1247,7 +1178,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 160,
+            "line": 161,
             "name": "Click on 'INR' link",
             "result": {
               "status": "skipped"
@@ -1256,7 +1187,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 161,
+            "line": 162,
             "name": "Deposit Via RTGS option is selected as default",
             "result": {
               "status": "skipped"
@@ -1265,7 +1196,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 162,
+            "line": 163,
             "name": "Click on 'Confirm Payment Method' Button",
             "result": {
               "status": "skipped"
@@ -1274,17 +1205,8 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 163,
-            "name": "Enter amount '15'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 164,
-            "name": "Enter the transaction id '1234'",
+            "name": "Enter the amount value '15'",
             "result": {
               "status": "skipped"
             }
@@ -1293,6 +1215,15 @@
             "arguments": [],
             "keyword": "And ",
             "line": 165,
+            "name": "Enter the transaction id",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 166,
             "name": "Click on 'SUBMIT' Button",
             "result": {
               "status": "skipped"
@@ -1301,7 +1232,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 166,
+            "line": 167,
             "name": "It should display message as 'Success'",
             "result": {
               "status": "skipped"
@@ -1310,7 +1241,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 167,
+            "line": 168,
             "name": "It also display message as 'Your INR Balance Will Be Updated In The Next 4 Hours, Once The Transaction Is Verified'",
             "result": {
               "status": "skipped"
@@ -1321,12 +1252,12 @@
       {
         "id": "vauld---smoke;#14)-wallet---deposit-via-upi",
         "keyword": "Scenario",
-        "line": 170,
+        "line": 171,
         "name": "#14) Wallet - Deposit Via UPI",
         "tags": [
           {
-            "name": "@only",
-            "line": 169
+            "name": "@skip",
+            "line": 170
           }
         ],
         "type": "scenario",
@@ -1334,68 +1265,53 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 171,
+            "line": 172,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 25955000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 172,
-            "name": "Click on 'Wallet' link",
-            "result": {
-              "status": "passed",
-              "duration": 984000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 173,
-            "name": "Click on 'INR' link",
+            "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 2959000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "When ",
             "line": 174,
-            "name": "Select Deposit Via UPI option",
+            "name": "Click on 'INR' link",
             "result": {
-              "status": "passed",
-              "duration": 740000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 175,
-            "name": "Click on 'Confirm Payment Method' Button",
+            "name": "Select Deposit Via UPI option",
             "result": {
-              "status": "passed",
-              "duration": 766000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 176,
-            "name": "Enter amount '15'",
+            "name": "Click on 'Confirm Payment Method' Button",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `input[placeholder*=\"Amount\"]`, but never found it.\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\support\\index.js:67:6)"
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 177,
-            "name": "Enter the transaction id '457812'",
+            "name": "Enter the amount value '15'",
             "result": {
               "status": "skipped"
             }
@@ -1404,6 +1320,15 @@
             "arguments": [],
             "keyword": "And ",
             "line": 178,
+            "name": "Enter the transaction id",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 179,
             "name": "Click on 'SUBMIT' Button",
             "result": {
               "status": "skipped"
@@ -1412,8 +1337,17 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 179,
-            "name": "It should display the success message",
+            "line": 180,
+            "name": "It should display message as 'Success'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 181,
+            "name": "It also display message as 'Your INR Balance Will Be Updated In The Next 4 Hours, Once The Transaction Is Verified'",
             "result": {
               "status": "skipped"
             }
@@ -1423,12 +1357,12 @@
       {
         "id": "vauld---smoke;#15)-wallet---deposit-via-visa",
         "keyword": "Scenario",
-        "line": 182,
+        "line": 184,
         "name": "#15) Wallet - Deposit Via Visa",
         "tags": [
           {
             "name": "@skip",
-            "line": 181
+            "line": 183
           }
         ],
         "type": "scenario",
@@ -1436,7 +1370,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 183,
+            "line": 185,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1445,7 +1379,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 184,
+            "line": 186,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -1454,7 +1388,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 185,
+            "line": 187,
             "name": "Click on 'INR' link",
             "result": {
               "status": "skipped"
@@ -1463,7 +1397,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 186,
+            "line": 188,
             "name": "Select Deposit Via Visa option",
             "result": {
               "status": "skipped"
@@ -1472,7 +1406,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 187,
+            "line": 189,
             "name": "Click on 'Confirm Payment Method' Button",
             "result": {
               "status": "skipped"
@@ -1481,7 +1415,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 188,
+            "line": 190,
             "name": "Enter amount '15'",
             "result": {
               "status": "skipped"
@@ -1489,18 +1423,9 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 189,
-            "name": "Click on 'PAY' button",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "line": 190,
-            "name": "It should navigate to new payment gateway",
+            "line": 191,
+            "name": "Check on Pay button",
             "result": {
               "status": "skipped"
             }
@@ -1510,12 +1435,12 @@
       {
         "id": "vauld---smoke;#16)-wallet---withdraw",
         "keyword": "Scenario",
-        "line": 193,
+        "line": 194,
         "name": "#16) Wallet - Withdraw",
         "tags": [
           {
             "name": "@skip",
-            "line": 192
+            "line": 193
           }
         ],
         "type": "scenario",
@@ -1523,7 +1448,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 194,
+            "line": 195,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1532,7 +1457,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 195,
+            "line": 196,
             "name": "Click on 'Wallet' link",
             "result": {
               "status": "skipped"
@@ -1541,7 +1466,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 196,
+            "line": 197,
             "name": "Click on 'INR' link",
             "result": {
               "status": "skipped"
@@ -1550,7 +1475,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 197,
+            "line": 198,
             "name": "Click on 'Withdraw INR' Link",
             "result": {
               "status": "skipped"
@@ -1559,17 +1484,8 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 198,
-            "name": "Enter amount '12'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "line": 199,
-            "name": "Select the Bank Account",
+            "name": "Enter amount '1'",
             "result": {
               "status": "skipped"
             }
@@ -1585,9 +1501,45 @@
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "And ",
             "line": 201,
-            "name": "It displays 'Success'",
+            "name": "Enter OTP",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 203,
+            "name": "Click on 'Withdraw Funds' Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 204,
+            "name": "It should display message as 'Success'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 205,
+            "name": "It should display message as 'Your withdrawal amount will be instantly transferred to the selected bank account / UPI ID'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 206,
+            "name": "It should also display message as 'Withdrawal request submitted!'",
             "result": {
               "status": "skipped"
             }
@@ -1597,12 +1549,12 @@
       {
         "id": "vauld---smoke;#17)-fixed-deposit---auto-renew-off",
         "keyword": "Scenario",
-        "line": 207,
+        "line": 212,
         "name": "#17) Fixed Deposit - Auto Renew OFF",
         "tags": [
           {
             "name": "@skip",
-            "line": 206
+            "line": 211
           }
         ],
         "type": "scenario",
@@ -1610,7 +1562,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 208,
+            "line": 213,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1619,7 +1571,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 209,
+            "line": 214,
             "name": "Click on 'Fixed Deposits' link",
             "result": {
               "status": "skipped"
@@ -1628,8 +1580,8 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 210,
-            "name": "Select 'ETH' Crypto",
+            "line": 215,
+            "name": "Select 'BTC' Crypto",
             "result": {
               "status": "skipped"
             }
@@ -1637,7 +1589,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 211,
+            "line": 216,
             "name": "Enter amount '0.0001'",
             "result": {
               "status": "skipped"
@@ -1646,7 +1598,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 212,
+            "line": 217,
             "name": "Toggle 'Auto Renew - Off'",
             "result": {
               "status": "skipped"
@@ -1654,8 +1606,17 @@
           },
           {
             "arguments": [],
+            "keyword": "Then ",
+            "line": 218,
+            "name": "Advance Option button should be disabled",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "And ",
-            "line": 213,
+            "line": 219,
             "name": "Click on 'CREATE FIXED DEPOSIT' button",
             "result": {
               "status": "skipped"
@@ -1664,8 +1625,8 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 214,
-            "name": "It should display message as 'Success'",
+            "line": 220,
+            "name": "It should display 'Success'",
             "result": {
               "status": "skipped"
             }
@@ -1673,8 +1634,17 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 215,
-            "name": "It also display message as 'Your Fixed Deposit has been created'",
+            "line": 221,
+            "name": "It should also display 'Your Fixed Deposit has been created'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 222,
+            "name": "Perform deletion on created record",
             "result": {
               "status": "skipped"
             }
@@ -1684,12 +1654,12 @@
       {
         "id": "vauld---smoke;#18)-fixed-deposit---auto-renew-on",
         "keyword": "Scenario",
-        "line": 218,
+        "line": 225,
         "name": "#18) Fixed Deposit - Auto Renew ON",
         "tags": [
           {
             "name": "@skip",
-            "line": 217
+            "line": 224
           }
         ],
         "type": "scenario",
@@ -1697,7 +1667,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 219,
+            "line": 226,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1706,7 +1676,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 220,
+            "line": 227,
             "name": "Click on 'Fixed Deposits' link",
             "result": {
               "status": "skipped"
@@ -1715,7 +1685,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 221,
+            "line": 228,
             "name": "Select 'BTC' Crypto",
             "result": {
               "status": "skipped"
@@ -1724,7 +1694,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 222,
+            "line": 229,
             "name": "Enter amount '0.0001'",
             "result": {
               "status": "skipped"
@@ -1732,8 +1702,17 @@
           },
           {
             "arguments": [],
+            "keyword": "Then ",
+            "line": 230,
+            "name": "Check Principal & Interest option is selected",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "And ",
-            "line": 223,
+            "line": 231,
             "name": "Click on 'CREATE FIXED DEPOSIT' button",
             "result": {
               "status": "skipped"
@@ -1742,8 +1721,8 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 224,
-            "name": "It should display message as 'Success'",
+            "line": 232,
+            "name": "It should display 'Success'",
             "result": {
               "status": "skipped"
             }
@@ -1751,8 +1730,17 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 225,
-            "name": "It also display message as 'Your Fixed Deposit has been created'",
+            "line": 233,
+            "name": "It should also display 'Your Fixed Deposit has been created'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 234,
+            "name": "Perform deletion on created record",
             "result": {
               "status": "skipped"
             }
@@ -1762,12 +1750,12 @@
       {
         "id": "vauld---smoke;#19)-fixed-deposit---auto-renew-on---principal-only",
         "keyword": "Scenario",
-        "line": 228,
+        "line": 237,
         "name": "#19) Fixed Deposit - Auto Renew ON - Principal Only",
         "tags": [
           {
             "name": "@skip",
-            "line": 227
+            "line": 236
           }
         ],
         "type": "scenario",
@@ -1775,7 +1763,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 229,
+            "line": 238,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -1784,7 +1772,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 230,
+            "line": 239,
             "name": "Click on 'Fixed Deposits' link",
             "result": {
               "status": "skipped"
@@ -1793,7 +1781,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 231,
+            "line": 240,
             "name": "Select 'BTC' Crypto",
             "result": {
               "status": "skipped"
@@ -1802,7 +1790,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 232,
+            "line": 241,
             "name": "Enter amount '0.0001'",
             "result": {
               "status": "skipped"
@@ -1811,7 +1799,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 233,
+            "line": 242,
             "name": "Click on 'Advanced Options' button",
             "result": {
               "status": "skipped"
@@ -1820,7 +1808,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 234,
+            "line": 243,
             "name": "Toggle 'Principal only'",
             "result": {
               "status": "skipped"
@@ -1828,8 +1816,17 @@
           },
           {
             "arguments": [],
+            "keyword": "Then ",
+            "line": 244,
+            "name": "Check Principal Only option is selected",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "And ",
-            "line": 235,
+            "line": 245,
             "name": "Click on 'CREATE FIXED DEPOSIT' button",
             "result": {
               "status": "skipped"
@@ -1838,8 +1835,8 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 236,
-            "name": "It should display message as 'Success'",
+            "line": 246,
+            "name": "It should display 'Success'",
             "result": {
               "status": "skipped"
             }
@@ -1847,8 +1844,17 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 237,
-            "name": "It also display message as 'Your Fixed Deposit has been created'",
+            "line": 247,
+            "name": "It should also display 'Your Fixed Deposit has been created'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 248,
+            "name": "Perform deletion on created record",
             "result": {
               "status": "skipped"
             }
@@ -1858,98 +1864,11 @@
       {
         "id": "vauld---smoke;#20)-instant-buy-&-sell---buy",
         "keyword": "Scenario",
-        "line": 243,
+        "line": 254,
         "name": "#20) Instant Buy & Sell - BUY",
         "tags": [
           {
-            "name": "@skip",
-            "line": 242
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 244,
-            "name": "As a existing Vauld user in Dashboard page",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 245,
-            "name": "Click on 'buyCrypto' under Exchange",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 246,
-            "name": "Select 'INR' in I have dropdown",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 247,
-            "name": "Enter amount '750'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 248,
-            "name": "Select 'XRP' in I want dropdown",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 249,
-            "name": "Click on 'Buy Now' Button",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 250,
-            "name": "Click on 'Proceed' Button",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 251,
-            "name": "it should display Success Message",
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "vauld---smoke;#21)-instant-buy-&-sell---sell",
-        "keyword": "Scenario",
-        "line": 254,
-        "name": "#21) Instant Buy & Sell - SELL",
-        "tags": [
-          {
-            "name": "@skip",
+            "name": "@only",
             "line": 253
           }
         ],
@@ -1961,7 +1880,8 @@
             "line": 255,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 25921000000
             }
           },
           {
@@ -1970,40 +1890,139 @@
             "line": 256,
             "name": "Click on 'buyCrypto' under Exchange",
             "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 257,
-            "name": "Click on 'SELL' Section",
-            "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 651000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 258,
-            "name": "Select 'XRP' in I have dropdown",
+            "line": 257,
+            "name": "Enter amount '10'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2776000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 258,
+            "name": "Select 'USDT' Crypto",
+            "result": {
+              "status": "passed",
+              "duration": 1585000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 259,
-            "name": "Enter amount '20'",
+            "name": "Click on 'BUY NOW' Button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 361000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 260,
+            "name": "Check and Click on Proceed Button",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 261,
+            "name": "It should display 'Success'",
+            "result": {
+              "status": "passed",
+              "duration": 825000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 262,
+            "name": "It should display as well 'Your order has been executed.'",
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "vauld---smoke;#21)-instant-buy-&-sell---sell",
+        "keyword": "Scenario",
+        "line": 265,
+        "name": "#21) Instant Buy & Sell - SELL",
+        "tags": [
+          {
+            "name": "@only",
+            "line": 264
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 266,
+            "name": "As a existing Vauld user in Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 16663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 267,
+            "name": "Click on 'buyCrypto' under Exchange",
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 268,
+            "name": "Click on 'USDT' Link",
+            "result": {
+              "status": "passed",
+              "duration": 2144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 269,
+            "name": "Click on 'sell' Link",
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 270,
+            "name": "Enter Indian Rupee '10'",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 10000ms: `cy.type()` failed because this element:\n\n`<input _ngcontent-nph-c135=\"\" placeholder=\"Enter Amount\" maxlength=\"15\" type=\"text\" class=\"form-control ng-tns-c135-6 ng-untouched ng-pristine ng-valid\" style=\"padding-left: 35%;\">`\n\nis being covered by another element:\n\n`<input _ngcontent-nph-c135=\"\" maxlength=\"15\" placeholder=\"Enter Amount\" type=\"text\" class=\"form-control ng-tns-c135-6 ng-untouched ng-pristine ng-valid\" style=\"padding-left: 35%; padding-right: 20%; height: 6vh;\">`\n\nFix this problem, or use {force: true} to disable error checking.\n    at $Cy.ensureDescendents (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:142591:26)\n    at ensureDescendents (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:130790:8)\n    at ensureDescendentsAndScroll (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:130797:14)\n    at ensureElIsNotCovered (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:130931:5)\n    at runAllChecks (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:131118:52)\n    at retryActionability (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:131141:16)\nFrom previous event:\n    at tryFn (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:147263:21)\n    at whenStable (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:147301:12)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:146793:16\nFrom Your Spec Code:\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:226:53)\n    at Context.resolveAndRunStepDefinition (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10817:29)\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10149:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 271,
             "name": "Click on 'SELL NOW' Button",
             "result": {
               "status": "skipped"
@@ -2011,9 +2030,27 @@
           },
           {
             "arguments": [],
+            "keyword": "And ",
+            "line": 272,
+            "name": "Check and Click on Proceed Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Then ",
-            "line": 261,
-            "name": "it should display Success Message",
+            "line": 273,
+            "name": "It should display 'Success'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 274,
+            "name": "It should display as well 'Your order has been executed.'",
             "result": {
               "status": "skipped"
             }
@@ -2023,12 +2060,12 @@
       {
         "id": "vauld---smoke;#22)-instant-swap",
         "keyword": "Scenario",
-        "line": 264,
+        "line": 277,
         "name": "#22) Instant Swap",
         "tags": [
           {
-            "name": "@skip",
-            "line": 263
+            "name": "@only",
+            "line": 276
           }
         ],
         "type": "scenario",
@@ -2036,62 +2073,88 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 265,
+            "line": 278,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 20306000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 266,
+            "line": 279,
             "name": "Click on 'swapCrypto' under Exchange",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3038000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 267,
-            "name": "Select 'XRP' in I have Crypto dropdown",
+            "line": 280,
+            "name": "Select 'USDT' in I have dropdown",
             "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 268,
-            "name": "Enter amount '100'",
-            "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2505000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 269,
-            "name": "Select 'USDT' in I want Crypto dropdown",
+            "line": 281,
+            "name": "Select 'BTC' in I want dropdown",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1906000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 270,
+            "line": 282,
+            "name": "Enter amount '0.000305'",
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 283,
             "name": "Click on 'SWAP NOW' Button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 284,
+            "name": "Check and Click on Proceed Button",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 271,
-            "name": "It should display Success Message",
+            "line": 285,
+            "name": "It should display 'Success'",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<div.font-h1.color-secondary-dark.ng-tns-c146-9>' to contain text 'Success', but the text was ' Failed '\n    + expected - actual\n\n    -' Failed '\n    +'Success'\n\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:115:93)\n    at Context.resolveAndRunStepDefinition (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10817:29)\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10149:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 286,
+            "name": "It should display as well 'Your order has been executed.'",
             "result": {
               "status": "skipped"
             }
@@ -2101,12 +2164,12 @@
       {
         "id": "vauld---smoke;#23)-pro-trading---buy-limit",
         "keyword": "Scenario",
-        "line": 274,
+        "line": 289,
         "name": "#23) Pro Trading - Buy-Limit",
         "tags": [
           {
             "name": "@skip",
-            "line": 273
+            "line": 288
           }
         ],
         "type": "scenario",
@@ -2114,7 +2177,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 275,
+            "line": 290,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -2123,8 +2186,8 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 276,
-            "name": "Click on 'trading' under Exchange",
+            "line": 291,
+            "name": "Click on Pro-Trading under Exchange",
             "result": {
               "status": "skipped"
             }
@@ -2132,7 +2195,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 277,
+            "line": 292,
             "name": "Select 'XRP/INR' From Market Pair dropdown",
             "result": {
               "status": "skipped"
@@ -2141,17 +2204,8 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 278,
-            "name": "It should Display 'XRP/INR' Trading Page",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 279,
-            "name": "Click on 'BUY' Section",
+            "line": 293,
+            "name": "It should display 'XRP/INR' in Trading Page",
             "result": {
               "status": "skipped"
             }
@@ -2159,17 +2213,8 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 280,
-            "name": "Select 'Limit'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 281,
-            "name": "Enter amount '19'",
+            "line": 294,
+            "name": "Enter amount '17'",
             "result": {
               "status": "skipped"
             }
@@ -2177,8 +2222,8 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 282,
-            "name": "click on Deposit Button",
+            "line": 295,
+            "name": "Click on BUY Button",
             "result": {
               "status": "skipped"
             }
@@ -2186,8 +2231,8 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 283,
-            "name": "It should display Success Message",
+            "line": 296,
+            "name": "It should display message as 'Limit Order Created!'",
             "result": {
               "status": "skipped"
             }
@@ -2197,12 +2242,12 @@
       {
         "id": "vauld---smoke;#24)-pro-trading---sell-limit",
         "keyword": "Scenario",
-        "line": 286,
+        "line": 299,
         "name": "#24) Pro Trading - Sell-Limit",
         "tags": [
           {
             "name": "@skip",
-            "line": 285
+            "line": 298
           }
         ],
         "type": "scenario",
@@ -2210,7 +2255,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 287,
+            "line": 300,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "skipped"
@@ -2219,8 +2264,8 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 288,
-            "name": "Click on 'trading' under Exchange",
+            "line": 301,
+            "name": "Click on Pro-Trading under Exchange",
             "result": {
               "status": "skipped"
             }
@@ -2228,7 +2273,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 289,
+            "line": 302,
             "name": "Select 'XRP/INR' From Market Pair dropdown",
             "result": {
               "status": "skipped"
@@ -2237,8 +2282,8 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 290,
-            "name": "It should Display 'XRP/INR' Trading Page",
+            "line": 303,
+            "name": "It should display 'XRP/INR' in Trading Page",
             "result": {
               "status": "skipped"
             }
@@ -2246,8 +2291,8 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 291,
-            "name": "Click on 'SELL' Section",
+            "line": 304,
+            "name": "Click on 'SELL' Link",
             "result": {
               "status": "skipped"
             }
@@ -2255,17 +2300,8 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 292,
-            "name": "Select 'Limit'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 293,
-            "name": "Enter amount '19'",
+            "line": 305,
+            "name": "Enter amount '17'",
             "result": {
               "status": "skipped"
             }
@@ -2273,8 +2309,8 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 294,
-            "name": "Click on Deposit Button",
+            "line": 306,
+            "name": "Click on SELL Button",
             "result": {
               "status": "skipped"
             }
@@ -2282,8 +2318,8 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 295,
-            "name": "It should display Success Message",
+            "line": 307,
+            "name": "It should display message as 'Limit Order Created!'",
             "result": {
               "status": "skipped"
             }
@@ -2293,104 +2329,8 @@
       {
         "id": "vauld---smoke;#25)-pro-trading---buy-market",
         "keyword": "Scenario",
-        "line": 298,
-        "name": "#25) Pro Trading - Buy-Market",
-        "tags": [
-          {
-            "name": "@skip",
-            "line": 297
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 299,
-            "name": "As a existing Vauld user in Dashboard page",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 300,
-            "name": "Click on 'trading' under Exchange",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 301,
-            "name": "Select 'XRP/INR' From Market Pair dropdown",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 302,
-            "name": "It should Display 'XRP/INR' Trading Page",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 303,
-            "name": "Click on 'BUY' Section",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 304,
-            "name": "Select 'Market'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 305,
-            "name": "Enter amount '800'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 306,
-            "name": "Click on Deposit Button",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 307,
-            "name": "It should display Success Message",
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "vauld---smoke;#26)-pro-trading---sell-market",
-        "keyword": "Scenario",
         "line": 310,
-        "name": "#26) Pro Trading - Sell-Market",
+        "name": "#25) Pro Trading - Buy-Market",
         "tags": [
           {
             "name": "@skip",
@@ -2412,7 +2352,7 @@
             "arguments": [],
             "keyword": "When ",
             "line": 312,
-            "name": "Click on 'trading' under Exchange",
+            "name": "Click on Pro-Trading under Exchange",
             "result": {
               "status": "skipped"
             }
@@ -2430,16 +2370,16 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 314,
-            "name": "It should Display 'XRP/INR' Trading Page",
+            "name": "It should display 'XRP/INR' in Trading Page",
             "result": {
               "status": "skipped"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 315,
-            "name": "Click on 'SELL' Section",
+            "name": "Click on 'MARKET' Button",
             "result": {
               "status": "skipped"
             }
@@ -2448,16 +2388,7 @@
             "arguments": [],
             "keyword": "And ",
             "line": 316,
-            "name": "Select 'Market'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 317,
-            "name": "Enter amount '19'",
+            "name": "Enter amount '830'",
             "result": {
               "status": "skipped"
             }
@@ -2465,8 +2396,8 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 318,
-            "name": "Click on Deposit Button",
+            "line": 317,
+            "name": "Click on BUY Button",
             "result": {
               "status": "skipped"
             }
@@ -2474,8 +2405,104 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 319,
-            "name": "It should display Success Message",
+            "line": 318,
+            "name": "It should display message as 'Market Order Created!'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "vauld---smoke;#26)-pro-trading---sell-market",
+        "keyword": "Scenario",
+        "line": 321,
+        "name": "#26) Pro Trading - Sell-Market",
+        "tags": [
+          {
+            "name": "@skip",
+            "line": 320
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 322,
+            "name": "As a existing Vauld user in Dashboard page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 323,
+            "name": "Click on Pro-Trading under Exchange",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 324,
+            "name": "Select 'XRP/INR' From Market Pair dropdown",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 325,
+            "name": "It should display 'XRP/INR' in Trading Page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 326,
+            "name": "Click on 'SELL' Link",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 327,
+            "name": "Click on 'MARKET' Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 328,
+            "name": "Enter amount '1'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 329,
+            "name": "Click on SELL Button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 330,
+            "name": "It should display message as 'Market Order Created!'",
             "result": {
               "status": "skipped"
             }
@@ -2485,95 +2512,8 @@
       {
         "id": "vauld---smoke;#27)-otc-trade",
         "keyword": "Scenario",
-        "line": 322,
-        "name": "#27) OTC Trade",
-        "tags": [
-          {
-            "name": "@skip",
-            "line": 321
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 323,
-            "name": "As a existing Vauld user in Dashboard page",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 324,
-            "name": "Click on 'otc' under Exchange",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 325,
-            "name": "Select 'BTC' in I want dropdown",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 326,
-            "name": "Select 'ETH' in I have dropdown",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 327,
-            "name": "Enter amount '1'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 328,
-            "name": "Click on 'GET A QUOTE' button",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 329,
-            "name": "It should display message as 'Request Successfully Received'",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 330,
-            "name": "It also display message as 'Our team will get back to you via email in under 2 hours with a competitive quote for your request.'",
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "vauld---smoke;#28)-aip",
-        "keyword": "Scenario",
         "line": 333,
-        "name": "#28) AIP",
+        "name": "#27) OTC Trade",
         "tags": [
           {
             "name": "@skip",
@@ -2595,7 +2535,7 @@
             "arguments": [],
             "keyword": "When ",
             "line": 335,
-            "name": "Click on 'aip' under Exchange",
+            "name": "Click on 'otc' under Exchange",
             "result": {
               "status": "skipped"
             }
@@ -2604,7 +2544,7 @@
             "arguments": [],
             "keyword": "When ",
             "line": 336,
-            "name": "Click on 'Create New Basket' button",
+            "name": "Select 'BTC' in I want dropdown",
             "result": {
               "status": "skipped"
             }
@@ -2613,7 +2553,7 @@
             "arguments": [],
             "keyword": "And ",
             "line": 337,
-            "name": "Click on 'BAT' in Create New Basket",
+            "name": "Select 'ETH' in I have dropdown",
             "result": {
               "status": "skipped"
             }
@@ -2622,7 +2562,7 @@
             "arguments": [],
             "keyword": "And ",
             "line": 338,
-            "name": "Click on 'Create Allocation' button",
+            "name": "Enter amount '1'",
             "result": {
               "status": "skipped"
             }
@@ -2631,16 +2571,16 @@
             "arguments": [],
             "keyword": "And ",
             "line": 339,
-            "name": "Enter amount '2255'",
+            "name": "Click on 'GET A QUOTE' button",
             "result": {
               "status": "skipped"
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 340,
-            "name": "Click on 'Create AIP' button",
+            "name": "It should display message as 'Request Successfully Received'",
             "result": {
               "status": "skipped"
             }
@@ -2649,6 +2589,93 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 341,
+            "name": "It also display message as 'Our team will get back to you via email in under 2 hours with a competitive quote for your request.'",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "vauld---smoke;#28)-aip",
+        "keyword": "Scenario",
+        "line": 344,
+        "name": "#28) AIP",
+        "tags": [
+          {
+            "name": "@skip",
+            "line": 343
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 345,
+            "name": "As a existing Vauld user in Dashboard page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 346,
+            "name": "Click on 'aip' under Exchange",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 347,
+            "name": "Click on 'Create New Basket' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 348,
+            "name": "Click on 'BAT' in Create New Basket",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 349,
+            "name": "Click on 'Create Allocation' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 350,
+            "name": "Enter amount '2255'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 351,
+            "name": "Click on 'Create AIP' button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 352,
             "name": "It should display message as 'AIP Order Created Successfully'",
             "result": {
               "status": "skipped"
@@ -2657,7 +2684,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 342,
+            "line": 353,
             "name": "It also display message as 'Your AIP is enabled.'",
             "result": {
               "status": "skipped"
@@ -2668,12 +2695,12 @@
       {
         "id": "vauld---smoke;#29)-referral---create-campaign",
         "keyword": "Scenario",
-        "line": 348,
+        "line": 359,
         "name": "#29) Referral - Create Campaign",
         "tags": [
           {
             "name": "@skip",
-            "line": 347
+            "line": 358
           }
         ],
         "type": "scenario",
@@ -2681,7 +2708,7 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 349,
+            "line": 360,
             "name": "Login using 'selvaraj.alagarsamy.work@gmail.com' and 'Password123'",
             "result": {
               "status": "skipped"
@@ -2690,7 +2717,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 350,
+            "line": 361,
             "name": "Click on 'Referral' link",
             "result": {
               "status": "skipped"
@@ -2699,7 +2726,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 351,
+            "line": 362,
             "name": "Click on 'Create Campaign' link",
             "result": {
               "status": "skipped"
@@ -2708,7 +2735,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 352,
+            "line": 363,
             "name": "Enter the new campaign code",
             "result": {
               "status": "skipped"
@@ -2717,7 +2744,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 353,
+            "line": 364,
             "name": "Toggle 'Kickbacks'",
             "result": {
               "status": "skipped"
@@ -2726,7 +2753,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 354,
+            "line": 365,
             "name": "Click on ' Full' link",
             "result": {
               "status": "skipped"
@@ -2735,7 +2762,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 355,
+            "line": 366,
             "name": "Click on  checkbox",
             "result": {
               "status": "skipped"
@@ -2744,7 +2771,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 356,
+            "line": 367,
             "name": "Click on 'Create Campaign' button",
             "result": {
               "status": "skipped"
@@ -2753,7 +2780,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 357,
+            "line": 368,
             "name": "It should display the updated new campaign address in the text field",
             "result": {
               "status": "skipped"
@@ -2764,12 +2791,12 @@
       {
         "id": "vauld---smoke;#30)-referral---share",
         "keyword": "Scenario",
-        "line": 360,
+        "line": 371,
         "name": "#30) Referral - Share",
         "tags": [
           {
             "name": "@skip",
-            "line": 359
+            "line": 370
           }
         ],
         "type": "scenario",
@@ -2777,8 +2804,8 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 361,
-            "name": "As a existing Vauld user in Dashboard page",
+            "line": 372,
+            "name": "Login using 'selvaraj.alagarsamy.work@gmail.com' and 'Password123'",
             "result": {
               "status": "skipped"
             }
@@ -2786,7 +2813,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 362,
+            "line": 373,
             "name": "Click on 'Referral' link",
             "result": {
               "status": "skipped"
@@ -2795,7 +2822,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 363,
+            "line": 374,
             "name": "Click on 'Share' link",
             "result": {
               "status": "skipped"
@@ -2804,7 +2831,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 364,
+            "line": 375,
             "name": "It should display with Telegram, Whatsapp, Twitter, Reddit and Facebook option",
             "result": {
               "status": "skipped"

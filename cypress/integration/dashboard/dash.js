@@ -37,11 +37,13 @@ Then('It should display {string} and deposit address', function(crypto) {
         .should('have.text',crypto)
     cy.get('.address-input').should('be.visible')
         .should('not.be.empty')
+    cy.get('.qrcode').should('be.visible').should('exist')
 })
 
 Then('It should display Share link', function() {    
     cy.xpath("//span[text()='Share']")
         .should('be.visible')
+    cy.get('.card-close-btn').click()
 })
 
 When('Select Crypto {string} and enter amount {string} in Fixed Deposit Section', (crypto,amount) => {
@@ -100,7 +102,6 @@ Then('Schedule Call should navigate to meeting book page', function() {
    cy.window().then(win => {
      const stub = cy.stub(win,'open').as('windowopen')
    })
-   cy.wait(6000)
    cy.xpath('//button[text()=" Schedule Call "]').click()
    cy.get('@windowopen').should('be.calledWith',pop_url)
 })

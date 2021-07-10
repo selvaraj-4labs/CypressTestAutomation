@@ -28,3 +28,19 @@ Feature: Demo Purpose for FixedDeposit and Loan functionality
         And  Click on take loan button
         Then Verify the success message is displayed in loan section
         And Verify the latest record in 'History' tab
+
+    Background: 
+        Given As a existing Vauld user in Dashboard page
+
+    @skip
+    Scenario Outline: #1) Dashboard - Your Funds        
+        Then It should display Total Asset and Interest Earned
+        When Select Crypto '<token>' in Your Funds section
+        Then It should display the '<token>' balance
+        When Click on 'deposit funds' button
+        Then It should display '<token>' and deposit address
+        Then It should display Share link
+        Examples:
+            | token |
+            | ETH  |
+            | BTC  |

@@ -63,8 +63,12 @@ Then('Deposit Via RTGS option is selected as default', function() {
     cy.get('input[value="centralAccount"]').should('be.checked')
 })
 
-And('Enter the transaction id {string}', function(txtTransactionID) {
-    cy.get('input[placeholder="Enter transaction id"]').type(txtTransactionID)
+And('Enter the amount value {string}', function(amount){
+    cy.get('input[placeholder="Enter amount"]').type(amount)
+})
+
+And('Enter the transaction id', function() {    
+    cy.get('input[placeholder="Enter transaction id"]').type(Math.floor(Math.random() * 100000))
 })
 
 And('Select Deposit Via UPI option', function() {
@@ -73,4 +77,13 @@ And('Select Deposit Via UPI option', function() {
 
 And('Select Deposit Via Visa option', function() {
     cy.get('input[value="instantM"]').click({force:true}).should('be.checked')
+})
+
+Then('Check on Pay button', function(){
+    cy.get('.btn-primary').eq(0).should('be.visible').and('be.enabled')
+})
+
+And('Select the Bank Account', function() {
+    cy.get('.dropdown-btn').click({force:true})
+    cy.get('.bank-dropdown-item').click({force:true})
 })
