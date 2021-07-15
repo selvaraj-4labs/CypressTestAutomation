@@ -17,9 +17,9 @@ Then('Check Principal Only option is selected', function() {
 
 Then('Perform deletion on created record', function() {
     cy.lnkClick('Fixed Deposits')
-    cy.wait(6000)
+    cy.wait(3000)
     cy.get('.open-arrow').eq(0).click({force:true})
     cy.get('.opt-btn').eq(0).click({force:true})
     cy.get('button.pull-right.btn.btn-primary').click({force:true})
-    cy.wait(6000)
+    cy.wait(3000)
 })

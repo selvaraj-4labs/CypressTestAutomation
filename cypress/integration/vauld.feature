@@ -13,8 +13,8 @@ Feature: VAULD - SMOKE
     @only
     Scenario: #2) Dashboard - Fixed Deposit
         Given As a existing Vauld user in Dashboard page
-        When Select 'BTC' Crypto
-        And Enter amount '0.0001'
+        When Select 'USDT' Crypto
+        And Enter amount '0.01'
         And Click on 'CREATE FIXED DEPOSIT' button
         Then It should display success message in FD Section
         Then Perform deletion on created record
@@ -45,7 +45,7 @@ Feature: VAULD - SMOKE
     ############### DashBoard Ends Here ####################
     ############### Wallet Beings Here #####################
 
-    @only
+    @skip
     Scenario: #5) Wallet - Deposit
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
@@ -53,7 +53,7 @@ Feature: VAULD - SMOKE
         Then It displays 'BTC' and deposit address
         And It display Share link
 
-    @only
+    @skip
     Scenario: #6) Wallet - Send
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
@@ -64,24 +64,24 @@ Feature: VAULD - SMOKE
         And Click on 'GENERATE OTP' Button
         And Enter OTP
         When Click on 'SEND' Button
-        Then It should display message as 'Success'
-        Then It should also display message as 'Your request has been initiated, You will receive an update on registered e-mail, after confirmation from the blockchain'
+        Then It should display 'Success'
+        Then It should display as well 'Your request has been initiated, You will receive an update on registered e-mail, after confirmation from the blockchain'
 
-    @only
+    @skip
     Scenario: #7) Wallet - Loans - Take Loan
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
-        When Click on 'BTC' link 
+        When Click on 'USDT' link 
         And Click on 'loans' Link
-        And Enter amount '0.001'
-        And Select the Collateral Currency 'ETH'
+        And Enter amount '10'
+        And Select the Collateral Currency 'BTC'
         And Click on 'Take Loan' Button
-        Then It should display message as 'Success'
-        Then It should also display message as 'Your loan request is complete, and the tokens have been deposited in your wallet.'
+        Then It should display 'Success'
+        Then It should display as well 'Your loan request is complete, and the tokens have been deposited in your wallet.'
 
-    @only
+    @skip
     Scenario: #8) Wallet - Pay Back Loan using Crypto
-        Given As a existing Vauld user in Dashboard page
+        Given Login using 'ajfazt@gmail.com' and 'Password12345'
         When Click on 'Wallet' link
         When Click on 'BTC' link 
         And Click on 'loans' Link
@@ -93,12 +93,12 @@ Feature: VAULD - SMOKE
         And Click on 'FULL' Button
         Then It should display the amount
         And Click on 'Make Payment' Button
-        Then It should display message as 'Success'
-        Then It should also display message as 'Your Payment is Successful and your loan is closed!'
+        Then It should display 'Success'
+        Then It should display as well 'Your Payment is Successful and your loan is closed!'
 
-    @only
+    @skip
     Scenario: #9) Wallet - Pay Back Loan using Collateral
-        Given As a existing Vauld user in Dashboard page
+        Given Login using 'ajfazt@gmail.com' and 'Password12345'
         When Click on 'Wallet' link
         When Click on 'BTC' link 
         And Click on 'loans' Link
@@ -109,12 +109,12 @@ Feature: VAULD - SMOKE
         And Click on 'Continue' Button
         Then It should display the amount to be deducted and refunded
         And Click on 'Confirm' Button
-        Then It should display message as 'Success'
-        Then It should also display message as 'Your request to close the loan with collateral is in progress and will be processed shortly!'
+        Then It should display 'Success'
+        Then It should display as well 'Your request to close the loan with collateral is in progress and will be processed shortly!'
 
-    @only
+    @skip
     Scenario: #10) Wallet - Take More Loan
-        Given As a existing Vauld user in Dashboard page
+        Given Login using 'ajfazt@gmail.com' and 'Password12345'
         When Click on 'Wallet' link
         When Click on 'BTC' link 
         And Click on 'loans' Link
@@ -123,12 +123,12 @@ Feature: VAULD - SMOKE
         And Click on 'Take More Loan' Button
         And Click on 'MAX' Button
         And Click on 'Take More Loan' Button
-        Then It should display message as 'Success'
-        Then It should also display message as 'Add-on loan has been disbursed to your account successfully!'
+        Then It should display 'Success'
+        Then It should display as well 'Add-on loan has been disbursed to your account successfully!'
 
-    @only
+    @skip
     Scenario: #11) Wallet - Add More Collateral
-        Given As a existing Vauld user in Dashboard page
+        Given Login using 'ajfazt@gmail.com' and 'Password12345'
         When Click on 'Wallet' link
         When Click on 'BTC' link
         And Click on 'loans' Link
@@ -137,10 +137,10 @@ Feature: VAULD - SMOKE
         And Click on 'Add Collateral' Button
         And Enter amount '0.005'
         And Click on 'Add More Collateral' Button
-        Then It should display message as 'Success'
-        Then It should also display message as 'Collateral has been added for this loan successfully!'
+        Then It should display 'Success'
+        Then It should display as well 'Collateral has been added for this loan successfully!'
 
-    @only
+    @skip
     Scenario: #12) Wallet - Release Collateral
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
@@ -152,10 +152,10 @@ Feature: VAULD - SMOKE
         And Click on 'MAX' Button
         Then It should display the amount
         And Click on 'Release Collateral' Button
-        Then It should display message as 'Success'
-        Then It should also display message as 'Collateral has been unlocked successfully!'
+        Then It should display 'Success'
+        Then It should display as well 'Collateral has been unlocked successfully!'
 
-    @only
+    @skip
     Scenario: #13) Wallet - Deposit Via RTGS
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
@@ -165,10 +165,10 @@ Feature: VAULD - SMOKE
         And Enter the amount value '15'
         And Enter the transaction id
         And Click on 'SUBMIT' Button
-        Then It should display message as 'Success'
-        Then It also display message as 'Your INR Balance Will Be Updated In The Next 4 Hours, Once The Transaction Is Verified'
+        Then It should display 'Success'
+        Then It should also display 'Your INR Balance Will Be Updated In The Next 4 Hours, Once The Transaction Is Verified'
 
-    @only
+    @skip
     Scenario: #14) Wallet - Deposit Via UPI
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
@@ -178,10 +178,10 @@ Feature: VAULD - SMOKE
         And Enter the amount value '15'
         And Enter the transaction id
         And Click on 'SUBMIT' Button
-        Then It should display message as 'Success'
-        Then It also display message as 'Your INR Balance Will Be Updated In The Next 4 Hours, Once The Transaction Is Verified'
+        Then It should display 'Success'
+        Then It should also display 'Your INR Balance Will Be Updated In The Next 4 Hours, Once The Transaction Is Verified'
 
-    @only
+    @skip
     Scenario: #15) Wallet - Deposit Via Visa
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
@@ -191,7 +191,7 @@ Feature: VAULD - SMOKE
         And Enter amount '15'
         Then Check on Pay button
 
-    @only
+    @skip
     Scenario: #16) Wallet - Withdraw
         Given As a existing Vauld user in Dashboard page
         When Click on 'Wallet' link
@@ -202,19 +202,18 @@ Feature: VAULD - SMOKE
         And Enter OTP
         #And Select the Bank Account        
         And Click on 'Withdraw Funds' Button
-        Then It should display message as 'Success'
-        Then It should display message as 'Your withdrawal amount will be instantly transferred to the selected bank account / UPI ID'
-        Then It should also display message as 'Withdrawal request submitted!'
+        Then It should display 'Success'
+        Then It should display as well 'Withdrawal request submitted!'
 
     ############### Wallet Ends Here #####################
     ############### FD Beings Here #####################
 
-    @only
+    @skip
     Scenario: #17) Fixed Deposit - Auto Renew OFF
         Given As a existing Vauld user in Dashboard page
         When Click on 'Fixed Deposits' link        
-        When Select 'BTC' Crypto
-        And Enter amount '0.0001'
+        When Select 'USDT' Crypto
+        And Enter amount '0.01'
         And Toggle 'Auto Renew - Off'
         Then Advance Option button should be disabled
         And Click on 'CREATE FIXED DEPOSIT' button
@@ -222,24 +221,24 @@ Feature: VAULD - SMOKE
         Then It should also display 'Your Fixed Deposit has been created'
         Then Perform deletion on created record
 	
-    @only
+    @skip
     Scenario: #18) Fixed Deposit - Auto Renew ON
         Given As a existing Vauld user in Dashboard page
         When Click on 'Fixed Deposits' link
-        When Select 'BTC' Crypto
-        And Enter amount '0.0001'
+        When Select 'USDT' Crypto
+        And Enter amount '0.01'
         Then Check Principal & Interest option is selected
         And Click on 'CREATE FIXED DEPOSIT' button
         Then It should display 'Success'
         Then It should also display 'Your Fixed Deposit has been created'
         Then Perform deletion on created record
 
-    @only
+    @skip
     Scenario: #19) Fixed Deposit - Auto Renew ON - Principal Only
         Given As a existing Vauld user in Dashboard page
         When Click on 'Fixed Deposits' link
-        When Select 'BTC' Crypto
-        And Enter amount '0.0001'
+        When Select 'USDT' Crypto
+        And Enter amount '0.01'
         And Click on 'Advanced Options' button
         And Toggle 'Principal only'
         Then Check Principal Only option is selected
@@ -251,8 +250,8 @@ Feature: VAULD - SMOKE
     ############### FD Ends Here #####################
     ############### Exchange Beings Here #####################
 
-    @only
-    Scenario: #20) Instant Buy & Sell - BUY
+    @skip
+    Scenario: #20) Exchange - Instant Buy & Sell - BUY
         Given As a existing Vauld user in Dashboard page
         When Click on 'buyCrypto' under Exchange 
         And Enter amount '10'
@@ -262,8 +261,8 @@ Feature: VAULD - SMOKE
         Then It should display 'Success'
         Then It should display as well 'Your order has been executed.'
 
-    @only
-    Scenario: #21) Instant Buy & Sell - SELL
+    @skip
+    Scenario: #21) Exchange - Instant Buy & Sell - SELL
         Given As a existing Vauld user in Dashboard page
         When Click on 'buyCrypto' under Exchange 
         And Click on 'USDT' Link
@@ -274,30 +273,30 @@ Feature: VAULD - SMOKE
         Then It should display 'Success'
         Then It should display as well 'Your order has been executed.'
 
-    @only
-    Scenario: #22) Instant Swap
+    @skip
+    Scenario: #22) Exchange - Instant Swap
         Given As a existing Vauld user in Dashboard page
         When Click on 'swapCrypto' under Exchange
-        When Select 'USDT' in I have dropdown
-        When Select 'BTC' in I want dropdown
-        And Enter amount '0.000305'        
+        When Select 'BAT' in I have dropdown
+        When Select 'USDT' in I want dropdown
+        And Enter amount '11'        
         And Click on 'SWAP NOW' Button
         And Check and Click on Proceed Button
         Then It should display 'Success'
         Then It should display as well 'Your order has been executed.'
 	
-    @only
-    Scenario: #23) Pro Trading - Buy-Limit
+    @skip
+    Scenario: #23) Exchange - Pro Trading - Buy-Limit
         Given As a existing Vauld user in Dashboard page
         When Click on Pro-Trading under Exchange
         When Select 'XRP/INR' From Market Pair dropdown
         Then It should display 'XRP/INR' in Trading Page
         And Enter amount '17'
         When Click on BUY Button
-        Then It should display message as 'Limit Order Created!'
+        Then It should display notification as 'Limit Order Created!'
 
-    @only
-    Scenario: #24) Pro Trading - Sell-Limit
+    @skip
+    Scenario: #24) Exchange - Pro Trading - Sell-Limit
         Given As a existing Vauld user in Dashboard page
         When Click on Pro-Trading under Exchange
         When Select 'XRP/INR' From Market Pair dropdown
@@ -305,10 +304,10 @@ Feature: VAULD - SMOKE
         When Click on 'SELL' Link
         And Enter amount '17'
         When Click on SELL Button
-        Then It should display message as 'Limit Order Created!'
+        Then It should display notification as 'Limit Order Created!'
 	
-    @only
-    Scenario: #25) Pro Trading - Buy-Market
+    @skip
+    Scenario: #25) Exchange - Pro Trading - Buy-Market
         Given As a existing Vauld user in Dashboard page
         When Click on Pro-Trading under Exchange
         When Select 'XRP/INR' From Market Pair dropdown
@@ -316,10 +315,10 @@ Feature: VAULD - SMOKE
         And Click on 'MARKET' Button
         And Enter amount '830'
         When Click on BUY Button
-        Then It should display message as 'Market Order Created!'
+        Then It should display notification as 'Limit Order Created!'
 	
-    @only
-    Scenario: #26) Pro Trading - Sell-Market
+    @skip
+    Scenario: #26) Exchange - Pro Trading - Sell-Market
         Given As a existing Vauld user in Dashboard page
         When Click on Pro-Trading under Exchange
         When Select 'XRP/INR' From Market Pair dropdown
@@ -328,35 +327,35 @@ Feature: VAULD - SMOKE
         And Click on 'MARKET' Button
         And Enter amount '1'
         When Click on SELL Button
-        Then It should display message as 'Market Order Created!'
+        Then It should display notification as 'Limit Order Created!'
 
-    @only
-    Scenario: #27) OTC Trade
-        Given As a existing Vauld user in Dashboard page
+    @skip
+    Scenario: #27) Exchange - OTC Trade
+        Given Login using 'hemanth4labs@gmail.com' and 'Password123'
         When Click on 'otc' under Exchange
         When Select 'BTC' in I want dropdown
         And Select 'ETH' in I have dropdown
         And Enter amount '1'
         And Click on 'GET A QUOTE' button
-        Then It should display message as 'Request Successfully Received'
-        Then It also display message as 'Our team will get back to you via email in under 2 hours with a competitive quote for your request.'
+        Then It should display 'Request Successfully Received'
+        Then It should also display 'Our team will get back to you via email in under 2 hours with a competitive quote for your request.'
 
-    @only
-    Scenario: #28) AIP
-        Given As a existing Vauld user in Dashboard page
+    @skip
+    Scenario: #28) Exchange - AIP
+        Given Login using 'hemanth4labs@gmail.com' and 'Password123'
         When Click on 'aip' under Exchange
         When Click on 'Create New Basket' button
         And Click on 'BAT' in Create New Basket        
         And Click on 'Create Allocation' button
         And Enter amount '2255'
         And Click on 'Create AIP' button
-        Then It should display message as 'AIP Order Created Successfully'
-        Then It also display message as 'Your AIP is enabled.'
+        Then It should display 'AIP Order Created Successfully'
+        Then It should also display 'Your AIP is enabled.'
     
     ############### Exchange Ends Here #####################
     ############### Referral Beings Here #####################
 
-    @only
+    @skip
     Scenario: #29) Referral - Create Campaign
         Given Login using 'selvaraj.alagarsamy.work@gmail.com' and 'Password123'
         When Click on 'Referral' link
@@ -368,7 +367,7 @@ Feature: VAULD - SMOKE
         And Click on 'Create Campaign' button
         Then It should display the updated new campaign address in the text field
 
-    @only
+    @skip
     Scenario: #30) Referral - Share
         Given Login using 'selvaraj.alagarsamy.work@gmail.com' and 'Password123'
         When Click on 'Referral' link

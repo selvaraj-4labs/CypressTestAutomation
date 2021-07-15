@@ -35,9 +35,10 @@ And('Select the Collateral Currency {string}', function(txtCrypto) {
 
 And('Click on active loan', function() {
     cy.get('.filter-btn').click({force:true})
+    cy.get('input[type="checkbox"]').click({force:true})
     cy.get('.select-btn').eq(0).click({force:true})
     cy.xpath("//span[text()='active']").click({force:true})
-    cy.get('.loan-card').eq(0).click({force:true})    
+    cy.get('.loan-card').eq(0).click({force:true})     
 })
 
 Then('Pay back option selected as default', function() {

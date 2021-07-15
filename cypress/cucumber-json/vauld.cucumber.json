@@ -5,7 +5,7 @@
     "line": 1,
     "id": "vauld---smoke",
     "tags": [],
-    "uri": "dashboard.feature",
+    "uri": "vauld.feature",
     "elements": [
       {
         "id": "vauld---smoke;#1)-dashboard---your-funds",
@@ -27,7 +27,7 @@
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "passed",
-              "duration": 42719000000
+              "duration": 44947000000
             }
           },
           {
@@ -36,8 +36,9 @@
             "line": 6,
             "name": "It should display Total Asset and Interest Earned",
             "result": {
-              "status": "passed",
-              "duration": 3260000000
+              "status": "failed",
+              "duration": 12335000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '[ <div.font-h1.text-bold.color-awe.line-height-one.ng-tns-c121-6>, 1 more... ]' not to be 'empty'\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\vauld.feature:128:67)\n    at Context.resolveAndRunStepDefinition (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\vauld.feature:10816:29)\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\vauld.feature:10148:35)"
             }
           },
           {
@@ -46,8 +47,7 @@
             "line": 7,
             "name": "Select Crypto 'USDT' in Your Funds section",
             "result": {
-              "status": "passed",
-              "duration": 374000000
+              "status": "skipped"
             }
           },
           {
@@ -56,8 +56,7 @@
             "line": 8,
             "name": "It should display the 'USDT' balance",
             "result": {
-              "status": "passed",
-              "duration": 107000000
+              "status": "skipped"
             }
           },
           {
@@ -66,8 +65,7 @@
             "line": 9,
             "name": "Click on 'deposit funds' button",
             "result": {
-              "status": "passed",
-              "duration": 381000000
+              "status": "skipped"
             }
           },
           {
@@ -76,8 +74,7 @@
             "line": 10,
             "name": "It should display 'USDT' and deposit address",
             "result": {
-              "status": "passed",
-              "duration": 513000000
+              "status": "skipped"
             }
           },
           {
@@ -86,8 +83,7 @@
             "line": 11,
             "name": "It should display Share link",
             "result": {
-              "status": "passed",
-              "duration": 486000000
+              "status": "skipped"
             }
           }
         ]
@@ -112,7 +108,7 @@
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "passed",
-              "duration": 15568000000
+              "duration": 15579000000
             }
           },
           {
@@ -122,7 +118,7 @@
             "name": "Select 'USDT' Crypto",
             "result": {
               "status": "passed",
-              "duration": 1999000000
+              "duration": 3769000000
             }
           },
           {
@@ -132,7 +128,7 @@
             "name": "Enter amount '0.01'",
             "result": {
               "status": "passed",
-              "duration": 426000000
+              "duration": 855000000
             }
           },
           {
@@ -142,7 +138,7 @@
             "name": "Click on 'CREATE FIXED DEPOSIT' button",
             "result": {
               "status": "passed",
-              "duration": 288000000
+              "duration": 721000000
             }
           },
           {
@@ -152,7 +148,7 @@
             "name": "It should display success message in FD Section",
             "result": {
               "status": "passed",
-              "duration": 1379000000
+              "duration": 2660000000
             }
           },
           {
@@ -162,7 +158,7 @@
             "name": "Perform deletion on created record",
             "result": {
               "status": "passed",
-              "duration": 7114000000
+              "duration": 8603000000
             }
           }
         ]
@@ -187,7 +183,7 @@
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "passed",
-              "duration": 14052000000
+              "duration": 15179000000
             }
           },
           {
@@ -197,7 +193,7 @@
             "name": "Click on 'SWAP NOW' link",
             "result": {
               "status": "passed",
-              "duration": 299000000
+              "duration": 800000000
             }
           },
           {
@@ -207,7 +203,7 @@
             "name": "It should navigate to Instant Swap page",
             "result": {
               "status": "passed",
-              "duration": 71000000
+              "duration": 118000000
             }
           },
           {
@@ -217,7 +213,7 @@
             "name": "Click on 'Dashboard' link",
             "result": {
               "status": "passed",
-              "duration": 446000000
+              "duration": 1666000000
             }
           },
           {
@@ -226,8 +222,8 @@
             "line": 28,
             "name": "Click on 'BUY NOW' link",
             "result": {
-              "status": "passed",
-              "duration": 608000000
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `//span[text()=\"BUY NOW\"]`, but never found it.\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\support\\index.js:50:58)"
             }
           },
           {
@@ -236,8 +232,7 @@
             "line": 29,
             "name": "It should navigate to Buy page",
             "result": {
-              "status": "passed",
-              "duration": 75000000
+              "status": "skipped"
             }
           },
           {
@@ -246,8 +241,7 @@
             "line": 30,
             "name": "Click on 'Dashboard' link",
             "result": {
-              "status": "passed",
-              "duration": 779000000
+              "status": "skipped"
             }
           },
           {
@@ -256,8 +250,7 @@
             "line": 31,
             "name": "Click on 'TRADE NOW' link",
             "result": {
-              "status": "passed",
-              "duration": 766000000
+              "status": "skipped"
             }
           },
           {
@@ -266,8 +259,7 @@
             "line": 32,
             "name": "It should navigate to trading page",
             "result": {
-              "status": "passed",
-              "duration": 90000000
+              "status": "skipped"
             }
           },
           {
@@ -276,8 +268,7 @@
             "line": 33,
             "name": "Click on 'EXIT TRADING' link",
             "result": {
-              "status": "passed",
-              "duration": 912000000
+              "status": "skipped"
             }
           }
         ]
@@ -302,7 +293,7 @@
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
               "status": "passed",
-              "duration": 19192000000
+              "duration": 16968000000
             }
           },
           {
@@ -312,7 +303,7 @@
             "name": "Schedule Call should navigate to meeting book page",
             "result": {
               "status": "passed",
-              "duration": 443000000
+              "duration": 2275000000
             }
           },
           {
@@ -322,7 +313,7 @@
             "name": "Click on 'CALL ME NOW' button",
             "result": {
               "status": "passed",
-              "duration": 606000000
+              "duration": 881000000
             }
           },
           {
@@ -332,7 +323,7 @@
             "name": "Update phone number '9092680083'",
             "result": {
               "status": "passed",
-              "duration": 887000000
+              "duration": 1652000000
             }
           },
           {
@@ -342,7 +333,7 @@
             "name": "Click on 'Call Now' button",
             "result": {
               "status": "passed",
-              "duration": 264000000
+              "duration": 933000000
             }
           },
           {
@@ -352,7 +343,7 @@
             "name": "It should display as 'Thank you! We will be calling you shortly'",
             "result": {
               "status": "passed",
-              "duration": 397000000
+              "duration": 502000000
             }
           }
         ]
@@ -364,7 +355,7 @@
         "name": "#5) Wallet - Deposit",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 48
           }
         ],
@@ -376,8 +367,7 @@
             "line": 50,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 14550000000
+              "status": "skipped"
             }
           },
           {
@@ -386,8 +376,7 @@
             "line": 51,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 456000000
+              "status": "skipped"
             }
           },
           {
@@ -396,8 +385,7 @@
             "line": 52,
             "name": "Click on 'BTC' link",
             "result": {
-              "status": "passed",
-              "duration": 1527000000
+              "status": "skipped"
             }
           },
           {
@@ -406,8 +394,7 @@
             "line": 53,
             "name": "It displays 'BTC' and deposit address",
             "result": {
-              "status": "passed",
-              "duration": 236000000
+              "status": "skipped"
             }
           },
           {
@@ -416,8 +403,7 @@
             "line": 54,
             "name": "It display Share link",
             "result": {
-              "status": "passed",
-              "duration": 115000000
+              "status": "skipped"
             }
           }
         ]
@@ -429,7 +415,7 @@
         "name": "#6) Wallet - Send",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 56
           }
         ],
@@ -441,8 +427,7 @@
             "line": 58,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 16991000000
+              "status": "skipped"
             }
           },
           {
@@ -451,8 +436,7 @@
             "line": 59,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 461000000
+              "status": "skipped"
             }
           },
           {
@@ -461,8 +445,7 @@
             "line": 60,
             "name": "Click on 'ETH' link",
             "result": {
-              "status": "passed",
-              "duration": 1320000000
+              "status": "skipped"
             }
           },
           {
@@ -471,8 +454,7 @@
             "line": 61,
             "name": "Click on 'send' Link",
             "result": {
-              "status": "passed",
-              "duration": 357000000
+              "status": "skipped"
             }
           },
           {
@@ -481,8 +463,7 @@
             "line": 62,
             "name": "Enter amount '0.0001'",
             "result": {
-              "status": "passed",
-              "duration": 558000000
+              "status": "skipped"
             }
           },
           {
@@ -491,8 +472,7 @@
             "line": 63,
             "name": "Select Receiver Address",
             "result": {
-              "status": "passed",
-              "duration": 3562000000
+              "status": "skipped"
             }
           },
           {
@@ -501,8 +481,7 @@
             "line": 64,
             "name": "Click on 'GENERATE OTP' Button",
             "result": {
-              "status": "passed",
-              "duration": 303000000
+              "status": "skipped"
             }
           },
           {
@@ -511,8 +490,7 @@
             "line": 65,
             "name": "Enter OTP",
             "result": {
-              "status": "passed",
-              "duration": 2324000000
+              "status": "skipped"
             }
           },
           {
@@ -521,8 +499,7 @@
             "line": 66,
             "name": "Click on 'SEND' Button",
             "result": {
-              "status": "passed",
-              "duration": 316000000
+              "status": "skipped"
             }
           },
           {
@@ -531,8 +508,7 @@
             "line": 67,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1322000000
+              "status": "skipped"
             }
           },
           {
@@ -541,8 +517,7 @@
             "line": 68,
             "name": "It should display as well 'Your request has been initiated, You will receive an update on registered e-mail, after confirmation from the blockchain'",
             "result": {
-              "status": "passed",
-              "duration": 251000000
+              "status": "skipped"
             }
           }
         ]
@@ -554,7 +529,7 @@
         "name": "#7) Wallet - Loans - Take Loan",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 70
           }
         ],
@@ -566,8 +541,7 @@
             "line": 72,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 15414000000
+              "status": "skipped"
             }
           },
           {
@@ -576,8 +550,7 @@
             "line": 73,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 438000000
+              "status": "skipped"
             }
           },
           {
@@ -586,8 +559,7 @@
             "line": 74,
             "name": "Click on 'USDT' link",
             "result": {
-              "status": "passed",
-              "duration": 1306000000
+              "status": "skipped"
             }
           },
           {
@@ -596,8 +568,7 @@
             "line": 75,
             "name": "Click on 'loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 469000000
+              "status": "skipped"
             }
           },
           {
@@ -606,8 +577,7 @@
             "line": 76,
             "name": "Enter amount '10'",
             "result": {
-              "status": "passed",
-              "duration": 509000000
+              "status": "skipped"
             }
           },
           {
@@ -616,8 +586,7 @@
             "line": 77,
             "name": "Select the Collateral Currency 'BTC'",
             "result": {
-              "status": "passed",
-              "duration": 850000000
+              "status": "skipped"
             }
           },
           {
@@ -626,8 +595,7 @@
             "line": 78,
             "name": "Click on 'Take Loan' Button",
             "result": {
-              "status": "passed",
-              "duration": 336000000
+              "status": "skipped"
             }
           },
           {
@@ -636,8 +604,7 @@
             "line": 79,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1987000000
+              "status": "skipped"
             }
           },
           {
@@ -646,8 +613,7 @@
             "line": 80,
             "name": "It should display as well 'Your loan request is complete, and the tokens have been deposited in your wallet.'",
             "result": {
-              "status": "passed",
-              "duration": 229000000
+              "status": "skipped"
             }
           }
         ]
@@ -659,7 +625,7 @@
         "name": "#8) Wallet - Pay Back Loan using Crypto",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 82
           }
         ],
@@ -671,8 +637,7 @@
             "line": 84,
             "name": "Login using 'ajfazt@gmail.com' and 'Password12345'",
             "result": {
-              "status": "passed",
-              "duration": 11010000000
+              "status": "skipped"
             }
           },
           {
@@ -681,8 +646,7 @@
             "line": 85,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 427000000
+              "status": "skipped"
             }
           },
           {
@@ -691,8 +655,7 @@
             "line": 86,
             "name": "Click on 'BTC' link",
             "result": {
-              "status": "passed",
-              "duration": 1195000000
+              "status": "skipped"
             }
           },
           {
@@ -701,8 +664,7 @@
             "line": 87,
             "name": "Click on 'loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 305000000
+              "status": "skipped"
             }
           },
           {
@@ -711,8 +673,7 @@
             "line": 88,
             "name": "Click on 'View Loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 352000000
+              "status": "skipped"
             }
           },
           {
@@ -721,8 +682,7 @@
             "line": 89,
             "name": "Click on active loan",
             "result": {
-              "status": "passed",
-              "duration": 1325000000
+              "status": "skipped"
             }
           },
           {
@@ -731,8 +691,7 @@
             "line": 90,
             "name": "Click on 'Pay Back Loan' Button",
             "result": {
-              "status": "passed",
-              "duration": 331000000
+              "status": "skipped"
             }
           },
           {
@@ -741,8 +700,7 @@
             "line": 91,
             "name": "Pay back option selected as default",
             "result": {
-              "status": "passed",
-              "duration": 104000000
+              "status": "skipped"
             }
           },
           {
@@ -751,8 +709,7 @@
             "line": 92,
             "name": "Click on 'Continue' Button",
             "result": {
-              "status": "passed",
-              "duration": 369000000
+              "status": "skipped"
             }
           },
           {
@@ -761,8 +718,7 @@
             "line": 93,
             "name": "Click on 'FULL' Button",
             "result": {
-              "status": "passed",
-              "duration": 420000000
+              "status": "skipped"
             }
           },
           {
@@ -771,8 +727,7 @@
             "line": 94,
             "name": "It should display the amount",
             "result": {
-              "status": "passed",
-              "duration": 145000000
+              "status": "skipped"
             }
           },
           {
@@ -781,8 +736,7 @@
             "line": 95,
             "name": "Click on 'Make Payment' Button",
             "result": {
-              "status": "passed",
-              "duration": 353000000
+              "status": "skipped"
             }
           },
           {
@@ -791,8 +745,7 @@
             "line": 96,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1625000000
+              "status": "skipped"
             }
           },
           {
@@ -801,8 +754,7 @@
             "line": 97,
             "name": "It should display as well 'Your Payment is Successful and your loan is closed!'",
             "result": {
-              "status": "passed",
-              "duration": 238000000
+              "status": "skipped"
             }
           }
         ]
@@ -814,7 +766,7 @@
         "name": "#9) Wallet - Pay Back Loan using Collateral",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 99
           }
         ],
@@ -826,8 +778,7 @@
             "line": 101,
             "name": "Login using 'ajfazt@gmail.com' and 'Password12345'",
             "result": {
-              "status": "passed",
-              "duration": 11315000000
+              "status": "skipped"
             }
           },
           {
@@ -836,8 +787,7 @@
             "line": 102,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 434000000
+              "status": "skipped"
             }
           },
           {
@@ -846,8 +796,7 @@
             "line": 103,
             "name": "Click on 'BTC' link",
             "result": {
-              "status": "passed",
-              "duration": 1204000000
+              "status": "skipped"
             }
           },
           {
@@ -856,8 +805,7 @@
             "line": 104,
             "name": "Click on 'loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 567000000
+              "status": "skipped"
             }
           },
           {
@@ -866,8 +814,7 @@
             "line": 105,
             "name": "Click on 'View Loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 287000000
+              "status": "skipped"
             }
           },
           {
@@ -876,8 +823,7 @@
             "line": 106,
             "name": "Click on active loan",
             "result": {
-              "status": "passed",
-              "duration": 1249000000
+              "status": "skipped"
             }
           },
           {
@@ -886,8 +832,7 @@
             "line": 107,
             "name": "Click on 'Pay Back Loan' Button",
             "result": {
-              "status": "passed",
-              "duration": 261000000
+              "status": "skipped"
             }
           },
           {
@@ -896,8 +841,7 @@
             "line": 108,
             "name": "Click on Close loan using Collateral option",
             "result": {
-              "status": "passed",
-              "duration": 262000000
+              "status": "skipped"
             }
           },
           {
@@ -906,8 +850,7 @@
             "line": 109,
             "name": "Click on 'Continue' Button",
             "result": {
-              "status": "passed",
-              "duration": 284000000
+              "status": "skipped"
             }
           },
           {
@@ -916,8 +859,7 @@
             "line": 110,
             "name": "It should display the amount to be deducted and refunded",
             "result": {
-              "status": "passed",
-              "duration": 275000000
+              "status": "skipped"
             }
           },
           {
@@ -926,8 +868,7 @@
             "line": 111,
             "name": "Click on 'Confirm' Button",
             "result": {
-              "status": "passed",
-              "duration": 380000000
+              "status": "skipped"
             }
           },
           {
@@ -936,8 +877,7 @@
             "line": 112,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1945000000
+              "status": "skipped"
             }
           },
           {
@@ -946,8 +886,7 @@
             "line": 113,
             "name": "It should display as well 'Your request to close the loan with collateral is in progress and will be processed shortly!'",
             "result": {
-              "status": "passed",
-              "duration": 238000000
+              "status": "skipped"
             }
           }
         ]
@@ -959,7 +898,7 @@
         "name": "#10) Wallet - Take More Loan",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 115
           }
         ],
@@ -971,8 +910,7 @@
             "line": 117,
             "name": "Login using 'ajfazt@gmail.com' and 'Password12345'",
             "result": {
-              "status": "passed",
-              "duration": 11388000000
+              "status": "skipped"
             }
           },
           {
@@ -981,8 +919,7 @@
             "line": 118,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 429000000
+              "status": "skipped"
             }
           },
           {
@@ -991,8 +928,7 @@
             "line": 119,
             "name": "Click on 'BTC' link",
             "result": {
-              "status": "passed",
-              "duration": 1265000000
+              "status": "skipped"
             }
           },
           {
@@ -1001,8 +937,7 @@
             "line": 120,
             "name": "Click on 'loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 290000000
+              "status": "skipped"
             }
           },
           {
@@ -1011,8 +946,7 @@
             "line": 121,
             "name": "Click on 'View Loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 376000000
+              "status": "skipped"
             }
           },
           {
@@ -1021,8 +955,7 @@
             "line": 122,
             "name": "Click on active loan",
             "result": {
-              "status": "passed",
-              "duration": 1205000000
+              "status": "skipped"
             }
           },
           {
@@ -1031,8 +964,7 @@
             "line": 123,
             "name": "Click on 'Take More Loan' Button",
             "result": {
-              "status": "passed",
-              "duration": 277000000
+              "status": "skipped"
             }
           },
           {
@@ -1041,8 +973,7 @@
             "line": 124,
             "name": "Click on 'MAX' Button",
             "result": {
-              "status": "passed",
-              "duration": 273000000
+              "status": "skipped"
             }
           },
           {
@@ -1051,8 +982,7 @@
             "line": 125,
             "name": "Click on 'Take More Loan' Button",
             "result": {
-              "status": "passed",
-              "duration": 336000000
+              "status": "skipped"
             }
           },
           {
@@ -1061,8 +991,7 @@
             "line": 126,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1761000000
+              "status": "skipped"
             }
           },
           {
@@ -1071,8 +1000,7 @@
             "line": 127,
             "name": "It should display as well 'Add-on loan has been disbursed to your account successfully!'",
             "result": {
-              "status": "passed",
-              "duration": 278000000
+              "status": "skipped"
             }
           }
         ]
@@ -1084,7 +1012,7 @@
         "name": "#11) Wallet - Add More Collateral",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 129
           }
         ],
@@ -1096,8 +1024,7 @@
             "line": 131,
             "name": "Login using 'ajfazt@gmail.com' and 'Password12345'",
             "result": {
-              "status": "passed",
-              "duration": 14715000000
+              "status": "skipped"
             }
           },
           {
@@ -1106,8 +1033,7 @@
             "line": 132,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 461000000
+              "status": "skipped"
             }
           },
           {
@@ -1116,8 +1042,7 @@
             "line": 133,
             "name": "Click on 'BTC' link",
             "result": {
-              "status": "passed",
-              "duration": 1201000000
+              "status": "skipped"
             }
           },
           {
@@ -1126,8 +1051,7 @@
             "line": 134,
             "name": "Click on 'loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 344000000
+              "status": "skipped"
             }
           },
           {
@@ -1136,8 +1060,7 @@
             "line": 135,
             "name": "Click on 'View Loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 369000000
+              "status": "skipped"
             }
           },
           {
@@ -1146,8 +1069,7 @@
             "line": 136,
             "name": "Click on active loan",
             "result": {
-              "status": "passed",
-              "duration": 1313000000
+              "status": "skipped"
             }
           },
           {
@@ -1156,8 +1078,7 @@
             "line": 137,
             "name": "Click on 'Add Collateral' Button",
             "result": {
-              "status": "passed",
-              "duration": 304000000
+              "status": "skipped"
             }
           },
           {
@@ -1166,8 +1087,7 @@
             "line": 138,
             "name": "Enter amount '0.005'",
             "result": {
-              "status": "passed",
-              "duration": 534000000
+              "status": "skipped"
             }
           },
           {
@@ -1176,8 +1096,7 @@
             "line": 139,
             "name": "Click on 'Add More Collateral' Button",
             "result": {
-              "status": "passed",
-              "duration": 347000000
+              "status": "skipped"
             }
           },
           {
@@ -1186,8 +1105,7 @@
             "line": 140,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1968000000
+              "status": "skipped"
             }
           },
           {
@@ -1196,8 +1114,7 @@
             "line": 141,
             "name": "It should display as well 'Collateral has been added for this loan successfully!'",
             "result": {
-              "status": "passed",
-              "duration": 246000000
+              "status": "skipped"
             }
           }
         ]
@@ -1209,7 +1126,7 @@
         "name": "#12) Wallet - Release Collateral",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 143
           }
         ],
@@ -1221,8 +1138,7 @@
             "line": 145,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 13053000000
+              "status": "skipped"
             }
           },
           {
@@ -1231,8 +1147,7 @@
             "line": 146,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 451000000
+              "status": "skipped"
             }
           },
           {
@@ -1241,8 +1156,7 @@
             "line": 147,
             "name": "Click on 'BTC' link",
             "result": {
-              "status": "passed",
-              "duration": 1262000000
+              "status": "skipped"
             }
           },
           {
@@ -1251,8 +1165,7 @@
             "line": 148,
             "name": "Click on 'loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 343000000
+              "status": "skipped"
             }
           },
           {
@@ -1261,8 +1174,7 @@
             "line": 149,
             "name": "Click on 'View Loans' Link",
             "result": {
-              "status": "passed",
-              "duration": 364000000
+              "status": "skipped"
             }
           },
           {
@@ -1271,8 +1183,7 @@
             "line": 150,
             "name": "Click on active loan",
             "result": {
-              "status": "passed",
-              "duration": 1244000000
+              "status": "skipped"
             }
           },
           {
@@ -1281,8 +1192,7 @@
             "line": 151,
             "name": "Click on 'Remove Collateral' Button",
             "result": {
-              "status": "passed",
-              "duration": 285000000
+              "status": "skipped"
             }
           },
           {
@@ -1291,8 +1201,7 @@
             "line": 152,
             "name": "Click on 'MAX' Button",
             "result": {
-              "status": "passed",
-              "duration": 263000000
+              "status": "skipped"
             }
           },
           {
@@ -1301,8 +1210,7 @@
             "line": 153,
             "name": "It should display the amount",
             "result": {
-              "status": "passed",
-              "duration": 142000000
+              "status": "skipped"
             }
           },
           {
@@ -1311,8 +1219,7 @@
             "line": 154,
             "name": "Click on 'Release Collateral' Button",
             "result": {
-              "status": "passed",
-              "duration": 335000000
+              "status": "skipped"
             }
           },
           {
@@ -1321,8 +1228,7 @@
             "line": 155,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1914000000
+              "status": "skipped"
             }
           },
           {
@@ -1331,8 +1237,7 @@
             "line": 156,
             "name": "It should display as well 'Collateral has been unlocked successfully!'",
             "result": {
-              "status": "passed",
-              "duration": 258000000
+              "status": "skipped"
             }
           }
         ]
@@ -1344,7 +1249,7 @@
         "name": "#13) Wallet - Deposit Via RTGS",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 158
           }
         ],
@@ -1356,8 +1261,7 @@
             "line": 160,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 17234000000
+              "status": "skipped"
             }
           },
           {
@@ -1366,8 +1270,7 @@
             "line": 161,
             "name": "Click on 'Wallet' link",
             "result": {
-              "status": "passed",
-              "duration": 444000000
+              "status": "skipped"
             }
           },
           {
@@ -1376,8 +1279,7 @@
             "line": 162,
             "name": "Click on 'INR' link",
             "result": {
-              "status": "passed",
-              "duration": 1661000000
+              "status": "skipped"
             }
           },
           {
@@ -1386,8 +1288,7 @@
             "line": 163,
             "name": "Deposit Via RTGS option is selected as default",
             "result": {
-              "status": "passed",
-              "duration": 95000000
+              "status": "skipped"
             }
           },
           {
@@ -1396,8 +1297,7 @@
             "line": 164,
             "name": "Click on 'Confirm Payment Method' Button",
             "result": {
-              "status": "passed",
-              "duration": 310000000
+              "status": "skipped"
             }
           },
           {
@@ -1406,8 +1306,7 @@
             "line": 165,
             "name": "Enter the amount value '15'",
             "result": {
-              "status": "passed",
-              "duration": 519000000
+              "status": "skipped"
             }
           },
           {
@@ -1416,8 +1315,7 @@
             "line": 166,
             "name": "Enter the transaction id",
             "result": {
-              "status": "passed",
-              "duration": 554000000
+              "status": "skipped"
             }
           },
           {
@@ -1426,8 +1324,7 @@
             "line": 167,
             "name": "Click on 'SUBMIT' Button",
             "result": {
-              "status": "passed",
-              "duration": 285000000
+              "status": "skipped"
             }
           },
           {
@@ -1436,8 +1333,7 @@
             "line": 168,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 442000000
+              "status": "skipped"
             }
           },
           {
@@ -1446,8 +1342,7 @@
             "line": 169,
             "name": "It should also display 'Your INR Balance Will Be Updated In The Next 4 Hours, Once The Transaction Is Verified'",
             "result": {
-              "status": "passed",
-              "duration": 234000000
+              "status": "skipped"
             }
           }
         ]
@@ -1459,7 +1354,7 @@
         "name": "#14) Wallet - Deposit Via UPI",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 171
           }
         ],
@@ -1471,8 +1366,7 @@
             "line": 173,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `[type=\"radio\"]`, but never found it.\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\support\\index.js:31:6)"
+              "status": "skipped"
             }
           },
           {
@@ -1565,7 +1459,7 @@
         "name": "#15) Wallet - Deposit Via Visa",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 184
           }
         ],
@@ -1577,8 +1471,7 @@
             "line": 186,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:137949:13)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138969:16\nFrom previous event:\n    at Context.visit (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138968:61)\nFrom Your Spec Code:\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\support\\index.js:21:6)"
+              "status": "skipped"
             }
           },
           {
@@ -1644,7 +1537,7 @@
         "name": "#16) Wallet - Withdraw",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 194
           }
         ],
@@ -1656,8 +1549,7 @@
             "line": 196,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://uat.bankofhodlers.com/auth/signin/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND uat.bankofhodlers.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138933:23\n    at visitFailedByErr (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138292:12)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138932:11\nFrom previous event:\n    at go (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138895:17)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138961:20\nFrom previous event:\n    at visit (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138959:38)\n    at Context.visit (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138968:14)\nFrom Your Spec Code:\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\support\\index.js:21:6)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND uat.bankofhodlers.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)\n  "
+              "status": "skipped"
             }
           },
           {
@@ -1750,7 +1642,7 @@
         "name": "#17) Fixed Deposit - Auto Renew OFF",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 211
           }
         ],
@@ -1762,8 +1654,7 @@
             "line": 213,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://uat.bankofhodlers.com/auth/signin/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND uat.bankofhodlers.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138933:23\n    at visitFailedByErr (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138292:12)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138932:11\nFrom previous event:\n    at go (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138895:17)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138961:20\nFrom previous event:\n    at visit (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138959:38)\n    at Context.visit (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138968:14)\nFrom Your Spec Code:\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\support\\index.js:21:6)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND uat.bankofhodlers.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)\n  "
+              "status": "skipped"
             }
           },
           {
@@ -1856,7 +1747,7 @@
         "name": "#18) Fixed Deposit - Auto Renew ON",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 224
           }
         ],
@@ -1868,8 +1759,7 @@
             "line": 226,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://uat.bankofhodlers.com/auth/signin/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND uat.bankofhodlers.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138933:23\n    at visitFailedByErr (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138292:12)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138932:11\nFrom previous event:\n    at go (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138895:17)\n    at https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138961:20\nFrom previous event:\n    at visit (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138959:38)\n    at Context.visit (https://uat.bankofhodlers.com/__cypress/runner/cypress_runner.js:138968:14)\nFrom Your Spec Code:\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\support\\index.js:21:6)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND uat.bankofhodlers.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)\n  "
+              "status": "skipped"
             }
           },
           {
@@ -1953,7 +1843,7 @@
         "name": "#19) Fixed Deposit - Auto Renew ON - Principal Only",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 236
           }
         ],
@@ -1965,8 +1855,7 @@
             "line": 238,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 55125000000
+              "status": "skipped"
             }
           },
           {
@@ -1975,8 +1864,7 @@
             "line": 239,
             "name": "Click on 'Fixed Deposits' link",
             "result": {
-              "status": "passed",
-              "duration": 589000000
+              "status": "skipped"
             }
           },
           {
@@ -1985,8 +1873,7 @@
             "line": 240,
             "name": "Select 'USDT' Crypto",
             "result": {
-              "status": "passed",
-              "duration": 1845000000
+              "status": "skipped"
             }
           },
           {
@@ -1995,8 +1882,7 @@
             "line": 241,
             "name": "Enter amount '0.01'",
             "result": {
-              "status": "passed",
-              "duration": 489000000
+              "status": "skipped"
             }
           },
           {
@@ -2005,8 +1891,7 @@
             "line": 242,
             "name": "Click on 'Advanced Options' button",
             "result": {
-              "status": "passed",
-              "duration": 328000000
+              "status": "skipped"
             }
           },
           {
@@ -2015,8 +1900,7 @@
             "line": 243,
             "name": "Toggle 'Principal only'",
             "result": {
-              "status": "passed",
-              "duration": 379000000
+              "status": "skipped"
             }
           },
           {
@@ -2025,8 +1909,7 @@
             "line": 244,
             "name": "Check Principal Only option is selected",
             "result": {
-              "status": "passed",
-              "duration": 268000000
+              "status": "skipped"
             }
           },
           {
@@ -2035,8 +1918,7 @@
             "line": 245,
             "name": "Click on 'CREATE FIXED DEPOSIT' button",
             "result": {
-              "status": "passed",
-              "duration": 409000000
+              "status": "skipped"
             }
           },
           {
@@ -2045,8 +1927,7 @@
             "line": 246,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1562000000
+              "status": "skipped"
             }
           },
           {
@@ -2055,8 +1936,7 @@
             "line": 247,
             "name": "It should also display 'Your Fixed Deposit has been created'",
             "result": {
-              "status": "passed",
-              "duration": 273000000
+              "status": "skipped"
             }
           },
           {
@@ -2065,20 +1945,19 @@
             "line": 248,
             "name": "Perform deletion on created record",
             "result": {
-              "status": "passed",
-              "duration": 7434000000
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#20)-instant-buy-&-sell---buy",
+        "id": "vauld---smoke;#20)-exchange---instant-buy-&-sell---buy",
         "keyword": "Scenario",
         "line": 254,
-        "name": "#20) Instant Buy & Sell - BUY",
+        "name": "#20) Exchange - Instant Buy & Sell - BUY",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 253
           }
         ],
@@ -2090,8 +1969,7 @@
             "line": 255,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 17083000000
+              "status": "skipped"
             }
           },
           {
@@ -2100,8 +1978,7 @@
             "line": 256,
             "name": "Click on 'buyCrypto' under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 1253000000
+              "status": "skipped"
             }
           },
           {
@@ -2110,8 +1987,7 @@
             "line": 257,
             "name": "Enter amount '10'",
             "result": {
-              "status": "passed",
-              "duration": 1423000000
+              "status": "skipped"
             }
           },
           {
@@ -2120,8 +1996,7 @@
             "line": 258,
             "name": "Select 'USDT' Crypto",
             "result": {
-              "status": "passed",
-              "duration": 1224000000
+              "status": "skipped"
             }
           },
           {
@@ -2130,8 +2005,7 @@
             "line": 259,
             "name": "Click on 'BUY NOW' Button",
             "result": {
-              "status": "passed",
-              "duration": 415000000
+              "status": "skipped"
             }
           },
           {
@@ -2140,8 +2014,7 @@
             "line": 260,
             "name": "Check and Click on Proceed Button",
             "result": {
-              "status": "passed",
-              "duration": 41000000
+              "status": "skipped"
             }
           },
           {
@@ -2150,8 +2023,7 @@
             "line": 261,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1268000000
+              "status": "skipped"
             }
           },
           {
@@ -2160,20 +2032,19 @@
             "line": 262,
             "name": "It should display as well 'Your order has been executed.'",
             "result": {
-              "status": "passed",
-              "duration": 263000000
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#21)-instant-buy-&-sell---sell",
+        "id": "vauld---smoke;#21)-exchange---instant-buy-&-sell---sell",
         "keyword": "Scenario",
         "line": 265,
-        "name": "#21) Instant Buy & Sell - SELL",
+        "name": "#21) Exchange - Instant Buy & Sell - SELL",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 264
           }
         ],
@@ -2185,8 +2056,7 @@
             "line": 266,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 17565000000
+              "status": "skipped"
             }
           },
           {
@@ -2195,8 +2065,7 @@
             "line": 267,
             "name": "Click on 'buyCrypto' under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 1199000000
+              "status": "skipped"
             }
           },
           {
@@ -2205,8 +2074,7 @@
             "line": 268,
             "name": "Click on 'USDT' Link",
             "result": {
-              "status": "passed",
-              "duration": 1274000000
+              "status": "skipped"
             }
           },
           {
@@ -2215,8 +2083,7 @@
             "line": 269,
             "name": "Click on 'sell' Link",
             "result": {
-              "status": "passed",
-              "duration": 817000000
+              "status": "skipped"
             }
           },
           {
@@ -2225,8 +2092,7 @@
             "line": 270,
             "name": "Enter Indian Rupee '10'",
             "result": {
-              "status": "passed",
-              "duration": 3542000000
+              "status": "skipped"
             }
           },
           {
@@ -2235,8 +2101,7 @@
             "line": 271,
             "name": "Click on 'SELL NOW' Button",
             "result": {
-              "status": "passed",
-              "duration": 355000000
+              "status": "skipped"
             }
           },
           {
@@ -2245,8 +2110,7 @@
             "line": 272,
             "name": "Check and Click on Proceed Button",
             "result": {
-              "status": "passed",
-              "duration": 42000000
+              "status": "skipped"
             }
           },
           {
@@ -2255,8 +2119,7 @@
             "line": 273,
             "name": "It should display 'Success'",
             "result": {
-              "status": "passed",
-              "duration": 1130000000
+              "status": "skipped"
             }
           },
           {
@@ -2265,20 +2128,19 @@
             "line": 274,
             "name": "It should display as well 'Your order has been executed.'",
             "result": {
-              "status": "passed",
-              "duration": 268000000
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#22)-instant-swap",
+        "id": "vauld---smoke;#22)-exchange---instant-swap",
         "keyword": "Scenario",
         "line": 277,
-        "name": "#22) Instant Swap",
+        "name": "#22) Exchange - Instant Swap",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 276
           }
         ],
@@ -2290,8 +2152,7 @@
             "line": 278,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 14257000000
+              "status": "skipped"
             }
           },
           {
@@ -2300,8 +2161,7 @@
             "line": 279,
             "name": "Click on 'swapCrypto' under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 1171000000
+              "status": "skipped"
             }
           },
           {
@@ -2310,8 +2170,7 @@
             "line": 280,
             "name": "Select 'BAT' in I have dropdown",
             "result": {
-              "status": "passed",
-              "duration": 1188000000
+              "status": "skipped"
             }
           },
           {
@@ -2320,8 +2179,7 @@
             "line": 281,
             "name": "Select 'USDT' in I want dropdown",
             "result": {
-              "status": "passed",
-              "duration": 1086000000
+              "status": "skipped"
             }
           },
           {
@@ -2330,8 +2188,7 @@
             "line": 282,
             "name": "Enter amount '11'",
             "result": {
-              "status": "passed",
-              "duration": 625000000
+              "status": "skipped"
             }
           },
           {
@@ -2340,8 +2197,7 @@
             "line": 283,
             "name": "Click on 'SWAP NOW' Button",
             "result": {
-              "status": "passed",
-              "duration": 329000000
+              "status": "skipped"
             }
           },
           {
@@ -2350,8 +2206,7 @@
             "line": 284,
             "name": "Check and Click on Proceed Button",
             "result": {
-              "status": "passed",
-              "duration": 38000000
+              "status": "skipped"
             }
           },
           {
@@ -2360,8 +2215,7 @@
             "line": 285,
             "name": "It should display 'Success'",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<div.font-h1.color-secondary-dark.ng-tns-c146-6>' to contain text 'Success', but the text was ' Failed '\n    + expected - actual\n\n    -' Failed '\n    +'Success'\n\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:105:72)\n    at Context.resolveAndRunStepDefinition (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10816:29)\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10148:35)"
+              "status": "skipped"
             }
           },
           {
@@ -2376,13 +2230,13 @@
         ]
       },
       {
-        "id": "vauld---smoke;#23)-pro-trading---buy-limit",
+        "id": "vauld---smoke;#23)-exchange---pro-trading---buy-limit",
         "keyword": "Scenario",
         "line": 289,
-        "name": "#23) Pro Trading - Buy-Limit",
+        "name": "#23) Exchange - Pro Trading - Buy-Limit",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 288
           }
         ],
@@ -2394,8 +2248,7 @@
             "line": 290,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 11304000000
+              "status": "skipped"
             }
           },
           {
@@ -2404,8 +2257,7 @@
             "line": 291,
             "name": "Click on Pro-Trading under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 6076000000
+              "status": "skipped"
             }
           },
           {
@@ -2414,8 +2266,7 @@
             "line": 292,
             "name": "Select 'XRP/INR' From Market Pair dropdown",
             "result": {
-              "status": "passed",
-              "duration": 3064000000
+              "status": "skipped"
             }
           },
           {
@@ -2424,8 +2275,7 @@
             "line": 293,
             "name": "It should display 'XRP/INR' in Trading Page",
             "result": {
-              "status": "passed",
-              "duration": 175000000
+              "status": "skipped"
             }
           },
           {
@@ -2434,8 +2284,7 @@
             "line": 294,
             "name": "Enter amount '17'",
             "result": {
-              "status": "passed",
-              "duration": 1360000000
+              "status": "skipped"
             }
           },
           {
@@ -2444,8 +2293,7 @@
             "line": 295,
             "name": "Click on BUY Button",
             "result": {
-              "status": "passed",
-              "duration": 649000000
+              "status": "skipped"
             }
           },
           {
@@ -2454,20 +2302,19 @@
             "line": 296,
             "name": "It should display notification as 'Limit Order Created!'",
             "result": {
-              "status": "passed",
-              "duration": 550000000
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#24)-pro-trading---sell-limit",
+        "id": "vauld---smoke;#24)-exchange---pro-trading---sell-limit",
         "keyword": "Scenario",
         "line": 299,
-        "name": "#24) Pro Trading - Sell-Limit",
+        "name": "#24) Exchange - Pro Trading - Sell-Limit",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 298
           }
         ],
@@ -2479,8 +2326,7 @@
             "line": 300,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 12957000000
+              "status": "skipped"
             }
           },
           {
@@ -2489,8 +2335,7 @@
             "line": 301,
             "name": "Click on Pro-Trading under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 5287000000
+              "status": "skipped"
             }
           },
           {
@@ -2499,8 +2344,7 @@
             "line": 302,
             "name": "Select 'XRP/INR' From Market Pair dropdown",
             "result": {
-              "status": "passed",
-              "duration": 2822000000
+              "status": "skipped"
             }
           },
           {
@@ -2509,8 +2353,7 @@
             "line": 303,
             "name": "It should display 'XRP/INR' in Trading Page",
             "result": {
-              "status": "passed",
-              "duration": 183000000
+              "status": "skipped"
             }
           },
           {
@@ -2519,8 +2362,7 @@
             "line": 304,
             "name": "Click on 'SELL' Link",
             "result": {
-              "status": "passed",
-              "duration": 597000000
+              "status": "skipped"
             }
           },
           {
@@ -2529,8 +2371,7 @@
             "line": 305,
             "name": "Enter amount '17'",
             "result": {
-              "status": "passed",
-              "duration": 1024000000
+              "status": "skipped"
             }
           },
           {
@@ -2539,8 +2380,7 @@
             "line": 306,
             "name": "Click on SELL Button",
             "result": {
-              "status": "passed",
-              "duration": 402000000
+              "status": "skipped"
             }
           },
           {
@@ -2549,20 +2389,19 @@
             "line": 307,
             "name": "It should display notification as 'Limit Order Created!'",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `.notifications-container .color-secondary-dark`, but never found it.\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:109:6)\n    at Context.resolveAndRunStepDefinition (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10816:29)\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10148:35)"
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#25)-pro-trading---buy-market",
+        "id": "vauld---smoke;#25)-exchange---pro-trading---buy-market",
         "keyword": "Scenario",
         "line": 310,
-        "name": "#25) Pro Trading - Buy-Market",
+        "name": "#25) Exchange - Pro Trading - Buy-Market",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 309
           }
         ],
@@ -2574,8 +2413,7 @@
             "line": 311,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 16076000000
+              "status": "skipped"
             }
           },
           {
@@ -2584,8 +2422,7 @@
             "line": 312,
             "name": "Click on Pro-Trading under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 6347000000
+              "status": "skipped"
             }
           },
           {
@@ -2594,8 +2431,7 @@
             "line": 313,
             "name": "Select 'XRP/INR' From Market Pair dropdown",
             "result": {
-              "status": "passed",
-              "duration": 3566000000
+              "status": "skipped"
             }
           },
           {
@@ -2604,8 +2440,7 @@
             "line": 314,
             "name": "It should display 'XRP/INR' in Trading Page",
             "result": {
-              "status": "passed",
-              "duration": 219000000
+              "status": "skipped"
             }
           },
           {
@@ -2614,8 +2449,7 @@
             "line": 315,
             "name": "Click on 'MARKET' Button",
             "result": {
-              "status": "passed",
-              "duration": 887000000
+              "status": "skipped"
             }
           },
           {
@@ -2624,8 +2458,7 @@
             "line": 316,
             "name": "Enter amount '830'",
             "result": {
-              "status": "passed",
-              "duration": 1495000000
+              "status": "skipped"
             }
           },
           {
@@ -2634,8 +2467,7 @@
             "line": 317,
             "name": "Click on BUY Button",
             "result": {
-              "status": "passed",
-              "duration": 675000000
+              "status": "skipped"
             }
           },
           {
@@ -2644,20 +2476,19 @@
             "line": 318,
             "name": "It should display notification as 'Limit Order Created!'",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<div.x-font-h2.color-secondary-dark.text-bold.ng-tns-c117-9>' to contain text 'Limit Order Created!', but the text was ' Failed To Place Order! '\n    + expected - actual\n\n    -' Failed To Place Order! '\n    +'Limit Order Created!'\n\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:109:66)\n    at Context.resolveAndRunStepDefinition (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10816:29)\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10148:35)"
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#26)-pro-trading---sell-market",
+        "id": "vauld---smoke;#26)-exchange---pro-trading---sell-market",
         "keyword": "Scenario",
         "line": 321,
-        "name": "#26) Pro Trading - Sell-Market",
+        "name": "#26) Exchange - Pro Trading - Sell-Market",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 320
           }
         ],
@@ -2669,8 +2500,7 @@
             "line": 322,
             "name": "As a existing Vauld user in Dashboard page",
             "result": {
-              "status": "passed",
-              "duration": 22730000000
+              "status": "skipped"
             }
           },
           {
@@ -2679,8 +2509,7 @@
             "line": 323,
             "name": "Click on Pro-Trading under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 7479000000
+              "status": "skipped"
             }
           },
           {
@@ -2689,8 +2518,7 @@
             "line": 324,
             "name": "Select 'XRP/INR' From Market Pair dropdown",
             "result": {
-              "status": "passed",
-              "duration": 5798000000
+              "status": "skipped"
             }
           },
           {
@@ -2699,8 +2527,7 @@
             "line": 325,
             "name": "It should display 'XRP/INR' in Trading Page",
             "result": {
-              "status": "passed",
-              "duration": 259000000
+              "status": "skipped"
             }
           },
           {
@@ -2709,8 +2536,7 @@
             "line": 326,
             "name": "Click on 'SELL' Link",
             "result": {
-              "status": "passed",
-              "duration": 962000000
+              "status": "skipped"
             }
           },
           {
@@ -2719,8 +2545,7 @@
             "line": 327,
             "name": "Click on 'MARKET' Button",
             "result": {
-              "status": "passed",
-              "duration": 1184000000
+              "status": "skipped"
             }
           },
           {
@@ -2729,8 +2554,7 @@
             "line": 328,
             "name": "Enter amount '1'",
             "result": {
-              "status": "passed",
-              "duration": 1203000000
+              "status": "skipped"
             }
           },
           {
@@ -2739,8 +2563,7 @@
             "line": 329,
             "name": "Click on SELL Button",
             "result": {
-              "status": "passed",
-              "duration": 500000000
+              "status": "skipped"
             }
           },
           {
@@ -2749,20 +2572,19 @@
             "line": 330,
             "name": "It should display notification as 'Limit Order Created!'",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: expected '<div.x-font-h2.color-secondary-dark.text-bold.ng-tns-c117-9>' to contain text 'Limit Order Created!', but the text was ' Failed To Place Order! '\n    + expected - actual\n\n    -' Failed To Place Order! '\n    +'Limit Order Created!'\n\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:109:66)\n    at Context.resolveAndRunStepDefinition (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10816:29)\n    at Context.eval (https://uat.bankofhodlers.com/__cypress/tests?p=cypress\\integration\\dashboard.feature:10148:35)"
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#27)-otc-trade",
+        "id": "vauld---smoke;#27)-exchange---otc-trade",
         "keyword": "Scenario",
         "line": 333,
-        "name": "#27) OTC Trade",
+        "name": "#27) Exchange - OTC Trade",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 332
           }
         ],
@@ -2774,8 +2596,7 @@
             "line": 334,
             "name": "Login using 'hemanth4labs@gmail.com' and 'Password123'",
             "result": {
-              "status": "passed",
-              "duration": 15700000000
+              "status": "skipped"
             }
           },
           {
@@ -2784,8 +2605,7 @@
             "line": 335,
             "name": "Click on 'otc' under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 3894000000
+              "status": "skipped"
             }
           },
           {
@@ -2794,8 +2614,7 @@
             "line": 336,
             "name": "Select 'BTC' in I want dropdown",
             "result": {
-              "status": "passed",
-              "duration": 2146000000
+              "status": "skipped"
             }
           },
           {
@@ -2804,8 +2623,7 @@
             "line": 337,
             "name": "Select 'ETH' in I have dropdown",
             "result": {
-              "status": "passed",
-              "duration": 1885000000
+              "status": "skipped"
             }
           },
           {
@@ -2814,8 +2632,7 @@
             "line": 338,
             "name": "Enter amount '1'",
             "result": {
-              "status": "passed",
-              "duration": 1052000000
+              "status": "skipped"
             }
           },
           {
@@ -2824,8 +2641,7 @@
             "line": 339,
             "name": "Click on 'GET A QUOTE' button",
             "result": {
-              "status": "passed",
-              "duration": 1040000000
+              "status": "skipped"
             }
           },
           {
@@ -2834,8 +2650,7 @@
             "line": 340,
             "name": "It should display 'Request Successfully Received'",
             "result": {
-              "status": "passed",
-              "duration": 2521000000
+              "status": "skipped"
             }
           },
           {
@@ -2844,20 +2659,19 @@
             "line": 341,
             "name": "It should also display 'Our team will get back to you via email in under 2 hours with a competitive quote for your request.'",
             "result": {
-              "status": "passed",
-              "duration": 621000000
+              "status": "skipped"
             }
           }
         ]
       },
       {
-        "id": "vauld---smoke;#28)-aip",
+        "id": "vauld---smoke;#28)-exchange---aip",
         "keyword": "Scenario",
         "line": 344,
-        "name": "#28) AIP",
+        "name": "#28) Exchange - AIP",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 343
           }
         ],
@@ -2869,8 +2683,7 @@
             "line": 345,
             "name": "Login using 'hemanth4labs@gmail.com' and 'Password123'",
             "result": {
-              "status": "passed",
-              "duration": 27065000000
+              "status": "skipped"
             }
           },
           {
@@ -2879,8 +2692,7 @@
             "line": 346,
             "name": "Click on 'aip' under Exchange",
             "result": {
-              "status": "passed",
-              "duration": 3943000000
+              "status": "skipped"
             }
           },
           {
@@ -2889,8 +2701,7 @@
             "line": 347,
             "name": "Click on 'Create New Basket' button",
             "result": {
-              "status": "passed",
-              "duration": 1649000000
+              "status": "skipped"
             }
           },
           {
@@ -2899,8 +2710,7 @@
             "line": 348,
             "name": "Click on 'BAT' in Create New Basket",
             "result": {
-              "status": "passed",
-              "duration": 890000000
+              "status": "skipped"
             }
           },
           {
@@ -2909,8 +2719,7 @@
             "line": 349,
             "name": "Click on 'Create Allocation' button",
             "result": {
-              "status": "passed",
-              "duration": 877000000
+              "status": "skipped"
             }
           },
           {
@@ -2919,8 +2728,7 @@
             "line": 350,
             "name": "Enter amount '2255'",
             "result": {
-              "status": "passed",
-              "duration": 1109000000
+              "status": "skipped"
             }
           },
           {
@@ -2929,8 +2737,7 @@
             "line": 351,
             "name": "Click on 'Create AIP' button",
             "result": {
-              "status": "passed",
-              "duration": 891000000
+              "status": "skipped"
             }
           },
           {
@@ -2939,8 +2746,7 @@
             "line": 352,
             "name": "It should display 'AIP Order Created Successfully'",
             "result": {
-              "status": "passed",
-              "duration": 1357000000
+              "status": "skipped"
             }
           },
           {
@@ -2949,8 +2755,7 @@
             "line": 353,
             "name": "It should also display 'Your AIP is enabled.'",
             "result": {
-              "status": "passed",
-              "duration": 607000000
+              "status": "skipped"
             }
           }
         ]
@@ -2962,7 +2767,7 @@
         "name": "#29) Referral - Create Campaign",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 358
           }
         ],
@@ -2974,8 +2779,7 @@
             "line": 360,
             "name": "Login using 'selvaraj.alagarsamy.work@gmail.com' and 'Password123'",
             "result": {
-              "status": "passed",
-              "duration": 20979000000
+              "status": "skipped"
             }
           },
           {
@@ -2984,8 +2788,7 @@
             "line": 361,
             "name": "Click on 'Referral' link",
             "result": {
-              "status": "passed",
-              "duration": 2044000000
+              "status": "skipped"
             }
           },
           {
@@ -2994,8 +2797,7 @@
             "line": 362,
             "name": "Click on 'Create Campaign' link",
             "result": {
-              "status": "passed",
-              "duration": 1596000000
+              "status": "skipped"
             }
           },
           {
@@ -3004,8 +2806,7 @@
             "line": 363,
             "name": "Enter the new campaign code",
             "result": {
-              "status": "passed",
-              "duration": 1069000000
+              "status": "skipped"
             }
           },
           {
@@ -3014,8 +2815,7 @@
             "line": 364,
             "name": "Toggle 'Kickbacks'",
             "result": {
-              "status": "passed",
-              "duration": 965000000
+              "status": "skipped"
             }
           },
           {
@@ -3024,8 +2824,7 @@
             "line": 365,
             "name": "Click on ' Full' link",
             "result": {
-              "status": "passed",
-              "duration": 775000000
+              "status": "skipped"
             }
           },
           {
@@ -3034,8 +2833,7 @@
             "line": 366,
             "name": "Click on  checkbox",
             "result": {
-              "status": "passed",
-              "duration": 780000000
+              "status": "skipped"
             }
           },
           {
@@ -3044,8 +2842,7 @@
             "line": 367,
             "name": "Click on 'Create Campaign' button",
             "result": {
-              "status": "passed",
-              "duration": 972000000
+              "status": "skipped"
             }
           },
           {
@@ -3054,8 +2851,7 @@
             "line": 368,
             "name": "It should display the updated new campaign address in the text field",
             "result": {
-              "status": "passed",
-              "duration": 1679000000
+              "status": "skipped"
             }
           }
         ]
@@ -3067,7 +2863,7 @@
         "name": "#30) Referral - Share",
         "tags": [
           {
-            "name": "@only",
+            "name": "@skip",
             "line": 370
           }
         ],
@@ -3079,8 +2875,7 @@
             "line": 372,
             "name": "Login using 'selvaraj.alagarsamy.work@gmail.com' and 'Password123'",
             "result": {
-              "status": "passed",
-              "duration": 24520000000
+              "status": "skipped"
             }
           },
           {
@@ -3089,8 +2884,7 @@
             "line": 373,
             "name": "Click on 'Referral' link",
             "result": {
-              "status": "passed",
-              "duration": 1927000000
+              "status": "skipped"
             }
           },
           {
@@ -3099,8 +2893,7 @@
             "line": 374,
             "name": "Click on 'Share' link",
             "result": {
-              "status": "passed",
-              "duration": 1760000000
+              "status": "skipped"
             }
           },
           {
@@ -3109,8 +2902,7 @@
             "line": 375,
             "name": "It should display with Telegram, Whatsapp, Twitter, Reddit and Facebook option",
             "result": {
-              "status": "passed",
-              "duration": 1159000000
+              "status": "skipped"
             }
           }
         ]

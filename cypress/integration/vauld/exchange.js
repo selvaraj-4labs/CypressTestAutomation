@@ -26,7 +26,10 @@ When('Click on SELL Button', function() {
 })
 
 And('Enter Indian Rupee {string}', function(txtAmount) {
-    cy.get('input[placeholder="Enter Amount"]').eq(1).type(txtAmount, {force:true})
+    cy.wait(3000)
+    cy.get('input[placeholder="Enter Amount"]').eq(1)
+        .type(txtAmount, {force:true})
+        .should('have.value',txtAmount)
 })
 
 And('Check and Click on Proceed Button', function() {

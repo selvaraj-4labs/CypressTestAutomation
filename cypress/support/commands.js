@@ -12,13 +12,12 @@
 // -- This is a parent command --
  Cypress.Commands.add('login', function (email=Cypress.env('userName'),pwd=Cypress.env('password')) { 
     cy.visit('/')
-    cy.get('[type="email"]').type(email)
-    cy.get('#password').type(pwd, {log:false})
+    cy.get('[type="email"]').type(email).should('have.value',email)
+    cy.get('#password').type(pwd, {log:false}).should('have.value',pwd)
     cy.get('.btn').invoke('text').as('txtBeforeClick')
     cy.get('.btn').click()
     cy.get('.btn').invoke('text').as('txtAfterClick')
     cy.get('@txtBeforeClick').should('not.eq',cy.get('@txtAfterClick'))
-    //cy.wait(3000)
     cy.get('[type="radio"]').first().parent().click({force:true})
     cy.get('.continue-btn-margin').click()
     cy.get('[name="1"]').type('0')
@@ -26,7 +25,6 @@
     cy.get('[name="3"]').type('0')
     cy.get('[name="4"]').type('0')
     cy.get('.continue-btn-margin').click()
-    //cy.wait(3000)
     cy.url().should('include','dashboard')
   })
 

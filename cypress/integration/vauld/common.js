@@ -49,23 +49,6 @@ And('Enter amount {string}', function(amount) {
     cy.enterAmount(amount)
 })
 
-
-Then('It should display message as {string}', function(txtValue) {
-    cy.wait(3000)
-    cy.get('.color-secondary-dark').should('be.visible')
-        .should('contain.text',txtValue)
-})
-
-Then('It also display message as {string}', function(txtValue) {
-    cy.get('.color-secondary-light').should('be.visible')
-        .should('contain.text',txtValue)
-})
-
-Then('It should also display message as {string}', function(txtValue) {
-    cy.get('.color-secondary-hint').should('be.visible')        
-        .should('contain.text',txtValue)
-})
-
 And('Toggle {string}', function(txtToggle) {
     cy.get('.rail').eq(0).click()
 })
@@ -73,7 +56,6 @@ And('Toggle {string}', function(txtToggle) {
 And('Click on  checkbox', function() {
     cy.get('input[type="checkbox"]').click()
 })
-
 
 When('Select {string} in I want dropdown', function(txtCrypto) {
     cy.get('.coin-drop-btn').eq(0).click()
@@ -94,27 +76,28 @@ And('Select {string} in I have dropdown', function(txtCrypto) {
 
 Then('It should display {string}', function(displayMsg) {
     cy.get('.processing-absolute-container .color-secondary-dark').eq(0)
-        .should('be.visible')
         .should('contain.text',displayMsg)
     cy.xpath(`//*[contains(text(),"${displayMsg}")]`)
         .should('exist')
-        .should('be.visible')
+})
+
+Then('It should display notification as {string}', function(notifyMsg) {
+    cy.get('.notifications-container .color-secondary-dark').eq(0)
+        .should('contain.text',notifyMsg)
+    cy.xpath(`//*[contains(text(),"${notifyMsg}")]`)
+        .should('exist')
 })
 
 Then('It should also display {string}', function(txtMsg) {
     cy.get('.processing-absolute-container .color-secondary-light').eq(0)
-        .should('be.visible')
         .should('contain.text',txtMsg)
     cy.xpath(`//*[contains(text(),"${txtMsg}")]`)
         .should('exist')
-        .should('be.visible')
 })
 
 Then('It should display as well {string}', function(message) {
     cy.get('.processing-absolute-container .color-secondary-hint').eq(0)
-        .should('be.visible')
         .should('contain.text',message)
     cy.xpath(`//*[contains(text(),"${message}")]`)
         .should('exist')
-        .should('be.visible')
 })
